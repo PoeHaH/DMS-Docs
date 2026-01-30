@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Rewriting - Domain Mapping System Docs</title>
+    <meta name="description" content="URL Rewriting">
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+</head>
+<body>
+    <div class="docs-container">
+        <!-- Top Bar -->
+        <header class="top-bar">
+            <div class="logo">
+                <a href="/">Domain Mapping System Docs</a>
+            </div>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search documentation..." autocomplete="off">
+                <div id="search-results" class="search-results"></div>
+            </div>
+        </header>
+
+        <!-- Main Layout -->
+        <div class="main-layout">
+            <!-- Left Sidebar: Navigation -->
+            <aside class="sidebar sidebar-left">
+                <nav class="navigation" id="navigation">
+                    <ul class="nav-tree"><li class="nav-item" data-depth="1"><a href="/domain-mapping-system-docs/overview-how-to-map-domains.html">Overview How to Map Domains</a></li><li class="nav-item" data-depth="1"><a href="/domain-mapping-system-docs/video-guides.html">Video Guides</a></li><li class="nav-item" data-depth="1"><a href="/domain-mapping-system-docs/troubleshooting-guide.html">Troubleshooting Guide</a></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/requirements.html">Requirements</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/requirements/configuring-dns-records.html">Configuring DNS Records</a></li><li class="nav-item has-children" data-depth="2"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/requirements/server-configuration.html">Server Configuration</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/requirements/server-configuration/localhost-configuration.html">Localhost Configuration</a></li></ul></li></ul></li><li class="nav-item has-children expanded" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/features.html">Features</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/domain-mapping.html">Domain Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/creating-microsites-multisite-alternative.html">Creating Microsites - Multisite Alternative</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/global-domain-mapping.html">Global Domain Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/global-archive-category-mapping.html">Global Archive Category Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/global-parent-page-mapping.html">Global Parent Page Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/global-product-mapping-for-woocommerce.html">Global Product Mapping for WooCommerce</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/subdomain-mapping.html">Subdomain Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/subdirectory-mapping.html">Subdirectory Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/redirect-site-visitors-to-mapped-domains.html">Redirect Site Visitors to Mapped Domains</a></li><li class="nav-item active expanded" data-depth="2"><a href="/domain-mapping-system-docs/features/url-rewriting.html">URL Rewriting</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/query-string-parameters.html">Query String Parameters</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/language-per-domain.html">Language per Domain</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/favicon-per-domain.html">Favicon per Domain</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/multisite-integration.html">Multisite Integration</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/custom-head-and-body-code-per-domain.html">Custom head and body Code per Domain</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/menu-per-domain.html">Menu per Domain</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/404-handling.html">404 Handling</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/alias-domain-authentication.html">Alias Domain Authentication</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/subdomain-authentication.html">Subdomain Authentication</a></li><li class="nav-item has-children" data-depth="2"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/features/rest-api.html">REST API</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/features/rest-api/filters-and-actions.html">Filters and Actions</a></li></ul></li></ul></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/integrations-compatibility.html">Integrations &amp; Compatibility</a><ul class="nav-children"><li class="nav-item has-children" data-depth="2"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins.html">WordPress Plugins</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/yoast-seo.html">Yoast SEO</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/polylang.html">PolyLang</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/w3-total-cache.html">W3 Total Cache</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/wp-rocket.html">WP Rocket</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/multiple-domain-mapping.html">Multiple Domain Mapping</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/wpml.html">WPML</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/borlabs-cookie.html">Borlabs Cookie</a></li></ul></li><li class="nav-item has-children" data-depth="2"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms.html">Supported Hosting Platforms</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-cpanel.html">How do I set up a Domain Alias with cPanel</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-vultr-hosting.html">How do I set up a Domain Alias with VULTR hosting</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-plesk.html">How do I set up a domain Alias with Plesk</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-create-a-domain-pointer-in-directadmin.html">How do I create a Domain Pointer in DirectAdmin</a></li></ul></li></ul></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/common-issues.html">Common Issues</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/common-issues/caching.html">Caching</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/common-issues/ssl-for-multiple-domains.html">SSL for Multiple Domains</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/common-issues/cors-policy.html">CORS Policy</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/common-issues/known-plugin-conflicts.html">Known Plugin Conflicts</a></li></ul></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/faqs.html">FAQs</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/faqs/what-are-dns-records.html">What are DNS Records</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/faqs/what-is-a-domain-alias.html">What is a domain Alias</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/faqs/why-isn-t-my-domain-secure.html">Why isn&#039;t my domain secure</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/faqs/is-the-htaccess-file-modified.html">Is the htaccess file modified</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/faqs/why-is-a-directory-created-in-the-mu-plugins-folde.html">Why is a directory created in the mu-plugins folde</a></li></ul></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/misc.html">Misc</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/misc/pagination.html">Pagination</a></li></ul></li><li class="nav-item" data-depth="1"><a href="/domain-mapping-system-docs/changelog.html">Changelog</a></li></ul>
+                </nav>
+            </aside>
+
+            <!-- Content Area -->
+            <main class="content">
+                <article class="markdown-content">
+                    <h1 id="url-rewriting">URL Rewriting</h1>
+<p>URL Rewriting allows you to change the URLs that appear in links on your page when visiting the page with a mapped domain.</p>
+<p>The reason we implemented <strong>Global Rewriting</strong> vs <strong>Selective Rewriting</strong> is because of the nature of <a href="creating-microsites-multisite-alternative.html">Microsite functionality</a> and the importance of Internal Links.</p>
+<p>When mapping domains, you need to be careful about Internal Links. If you're linking to a page that is not mapped properly, the link will be considered a &quot;dead link&quot; and your website visitor may arrive to a 404 or different page than intended.</p>
+<p>Because many links are automatically generated in WordPress (like menu bar, copyright bar in some themes, etc), we created the URL Rewriting mechanism to properly allow internal linking.</p>
+<h3 id="global-url-rewriting"><strong>Global URL Rewriting</strong></h3>
+<p>If you're building a subsite and don't want anyone to visit any other URLs on your site, Global Rewriting is beneficial because it forces all URLs on that page to go to the mapped domain the visitor sees in their browser window.</p>
+<aside>
+<img src="https://www.notion.so/icons/report_red.svg" alt="https://www.notion.so/icons/report_red.svg" width="40px" />
+
+**Warning:** When using Global URL Rewriting, ensure you've mapped all the pages that are "linked to" on your mapped pages. If you don't, you'll have dead links that go to 404 because they are not mapped and the URL has been rewritten to the mapped version of any linked page.
+
+</aside>
+<p>The main benefit of Global Rewriting will prevent this visitor from seeing any other domain when navigating your site.</p>
+<p>With Global Rewriting enabled, the URL your visitor sees in their browser's URL bar will match all the links on the page they're viewing, excluding any external links.</p>
+<h3 id="what-urls-are-rewritten"><strong>What URLs are rewritten?</strong></h3>
+<ul>
+<li>All of them, including:
+<ul>
+<li>Hardcoded links.</li>
+<li>Any automatically generated links that have WordPress hooks (logo URL, menu items, footer copyright content, etc).</li>
+</ul></li>
+</ul>
+<h3 id="selective-url-rewriting"><strong>Selective URL Rewriting</strong></h3>
+<p>If you're mapping domains and don't have a strong preference about whether or not internal links will allow visitors to navigate to other domains mapped to your site, then you'll want to leave Selective URL Rewriting enabled.</p>
+<p>The benefit of Selective Rewriting is that mapped pages are automatically detected before a link is rewritten.</p>
+<p>For example, if you have a menu bar with 10 items and 5 of them have unique mapped domains attached, those menu item URLs will be rewritten to their corresponding mapped URLs.</p>
+                </article>
+            </main>
+
+            <!-- Right Sidebar: Table of Contents -->
+            <aside class="sidebar sidebar-right">
+                <nav class="toc" id="toc">
+                    <h4>On This Page</h4><ul class="toc-list"><ul class="toc-sublist"><li class="toc-item toc-h3"><a href="#global-url-rewriting">Global URL Rewriting</a></li><li class="toc-item toc-h3"><a href="#what-urls-are-rewritten">What URLs are rewritten?</a></li><li class="toc-item toc-h3"><a href="#selective-url-rewriting">Selective URL Rewriting</a></li></ul></li></ul>
+                </nav>
+            </aside>
+        </div>
+    </div>
+
+    <script>
+        // Expose base path and assets path for JS modules
+        window.DOCS_CONFIG = {
+            basePath: '',
+            assetsPath: '../../assets/',
+            currentUrl: '/domain-mapping-system-docs/features/url-rewriting.html'
+        };
+    </script>
+    <script src="../../assets/js/navigation.js"></script>
+    <script src="../../assets/js/toc.js"></script>
+    <script src="../../assets/js/search.js"></script>
+</body>
+</html>

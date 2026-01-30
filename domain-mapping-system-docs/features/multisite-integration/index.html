@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multisite Integration - Domain Mapping System Docs</title>
+    <meta name="description" content="Multisite Integration">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    <div class="docs-container">
+        <!-- Top Bar -->
+        <header class="top-bar">
+            <div class="logo">
+                <a href="/">Domain Mapping System Docs</a>
+            </div>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search documentation..." autocomplete="off">
+                <div id="search-results" class="search-results"></div>
+            </div>
+        </header>
+
+        <!-- Main Layout -->
+        <div class="main-layout">
+            <!-- Left Sidebar: Navigation -->
+            <aside class="sidebar sidebar-left">
+                <nav class="navigation" id="navigation">
+                    <ul class="nav-tree"><li class="nav-item" data-depth="1"><a href="/domain-mapping-system-docs/overview-how-to-map-domains/">Overview How to Map Domains</a></li><li class="nav-item" data-depth="1"><a href="/domain-mapping-system-docs/video-guides/">Video Guides</a></li><li class="nav-item" data-depth="1"><a href="/domain-mapping-system-docs/troubleshooting-guide/">Troubleshooting Guide</a></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/requirements/">Requirements</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/requirements/configuring-dns-records/">Configuring DNS Records</a></li><li class="nav-item has-children" data-depth="2"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/requirements/server-configuration/">Server Configuration</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/requirements/server-configuration/localhost-configuration/">Localhost Configuration</a></li></ul></li></ul></li><li class="nav-item has-children expanded" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/features/">Features</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/domain-mapping/">Domain Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/creating-microsites-multisite-alternative/">Creating Microsites - Multisite Alternative</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/global-domain-mapping/">Global Domain Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/global-archive-category-mapping/">Global Archive Category Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/global-parent-page-mapping/">Global Parent Page Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/global-product-mapping-for-woocommerce/">Global Product Mapping for WooCommerce</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/subdomain-mapping/">Subdomain Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/subdirectory-mapping/">Subdirectory Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/redirect-site-visitors-to-mapped-domains/">Redirect Site Visitors to Mapped Domains</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/url-rewriting/">URL Rewriting</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/query-string-parameters/">Query String Parameters</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/language-per-domain/">Language per Domain</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/favicon-per-domain/">Favicon per Domain</a></li><li class="nav-item active expanded" data-depth="2"><a href="/domain-mapping-system-docs/features/multisite-integration/">Multisite Integration</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/custom-head-and-body-code-per-domain/">Custom head and body Code per Domain</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/menu-per-domain/">Menu per Domain</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/404-handling/">404 Handling</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/alias-domain-authentication/">Alias Domain Authentication</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/subdomain-authentication/">Subdomain Authentication</a></li><li class="nav-item has-children" data-depth="2"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/features/rest-api/">REST API</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/features/rest-api/filters-and-actions/">Filters and Actions</a></li></ul></li></ul></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/integrations-compatibility/">Integrations &amp; Compatibility</a><ul class="nav-children"><li class="nav-item has-children" data-depth="2"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/">WordPress Plugins</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/yoast-seo/">Yoast SEO</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/polylang/">PolyLang</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/w3-total-cache/">W3 Total Cache</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/wp-rocket/">WP Rocket</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/multiple-domain-mapping/">Multiple Domain Mapping</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/wpml/">WPML</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/borlabs-cookie/">Borlabs Cookie</a></li></ul></li><li class="nav-item has-children" data-depth="2"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/">Supported Hosting Platforms</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-cpanel/">How do I set up a Domain Alias with cPanel</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-vultr-hosting/">How do I set up a Domain Alias with VULTR hosting</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-plesk/">How do I set up a domain Alias with Plesk</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-create-a-domain-pointer-in-directadmin/">How do I create a Domain Pointer in DirectAdmin</a></li></ul></li></ul></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/common-issues/">Common Issues</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/common-issues/caching/">Caching</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/common-issues/ssl-for-multiple-domains/">SSL for Multiple Domains</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/common-issues/cors-policy/">CORS Policy</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/common-issues/known-plugin-conflicts/">Known Plugin Conflicts</a></li></ul></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/faqs/">FAQs</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/faqs/what-are-dns-records/">What are DNS Records</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/faqs/what-is-a-domain-alias/">What is a domain Alias</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/faqs/why-isn-t-my-domain-secure/">Why isn&#039;t my domain secure</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/faqs/is-the-htaccess-file-modified/">Is the htaccess file modified</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/faqs/why-is-a-directory-created-in-the-mu-plugins-folde/">Why is a directory created in the mu-plugins folde</a></li></ul></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/misc/">Misc</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/misc/pagination/">Pagination</a></li></ul></li><li class="nav-item" data-depth="1"><a href="/domain-mapping-system-docs/changelog/">Changelog</a></li></ul>
+                </nav>
+            </aside>
+
+            <!-- Content Area -->
+            <main class="content">
+                <article class="markdown-content">
+                    <h1 id="multisite-integration">Multisite Integration</h1>
+<p>Domain Mapping System fully supports <a href="https://wordpress.org/support/article/create-a-network/">multisite networks</a>.</p>
+<p>To get started with Domain Mapping System on a multisite, install the free plugin on your Network Admin &gt; Plugins page. Then, click &quot;Network Activate,&quot; as seen in this screenshot:</p>
+<p><img src="/assets/images/2e067f4c2fcaeedb5182337c3c3f9df5.png" alt="" /></p>
+<p>After activating the plugin on your multisite network, go to any of your network sites, and click Domain Mapping on the WP-Admin menu bar.</p>
+<p>You'll notice the following notification at the top of the settings area, which covers two steps you need to take to activate Domain Mapping System on a multisite network:</p>
+<p><img src="/assets/images/8612075eab58d0e828123cb87d88eb84.png" alt="" /></p>
+<div class="info-block info-block-info"><div class="info-block-icon"><img src="https://www.notion.so/icons/info-alternate_blue.svg" alt="https://www.notion.so/icons/info-alternate_blue.svg" /></div><div class="info-block-content"><p>It looks like you are using a Multisite Network. To enable Domain Mapping System for multisite, add the following string to your <strong><code>wp-config.php</code></strong> file in <strong><code>/home/712913.cloudwaysapps.com/vwnnjkafun/public_html/</code></strong> above the line reading <strong><code>/* That's all, stop editing! Happy publishing. */</code></strong>.</p>
+<p><code>define( 'SUNRISE', true);</code></p>
+<p>You must also copy and paste the sunrise.php file from <strong><code>/home/712913.cloudwaysapps.com/vwnnjkafun/public_html/wp-content/plugins/domain-mapping-system/</code></strong> to the directory <strong><code>/home/712913.cloudwaysapps.com/vwnnjkafun/public_html/wp-content</code></strong></p></div></div>
+<h3 id="modify-wp-config-php-file"><strong>Modify wp-config.php File</strong></h3>
+<p>The first step is to modify your <code>wp-config.php</code> file, which is typically located in the <code>public_html</code> directory of your hosting server (or your corresponding root public directory, which may go by a different name).</p>
+<p>To modify this file, you'll need access to your server's File Manager or FTP/SFTP connection. Contact your hosting company to get access to modify the files if you don't already have it.</p>
+<p>Once you've got the file open, scroll to the bottom, near the line <code>/* That's all, stop editing! Happy publishing. */</code></p>
+<p>Then, add the following line directly above that:</p>
+<pre><code>define( 'SUNRISE', true);</code></pre>
+<p>It should look something like this:</p>
+<p><img src="/assets/images/df3a6c908583dc6a81b8f80214a6126e.png" alt="" /></p>
+<p>Ensure you've saved the file, and move on to step two.</p>
+<h3 id="move-the-sunrise-php-file-into-wp-content-directory"><strong>Move the sunrise.php File into wp-content Directory</strong></h3>
+<p>The second step is to move the provided sunrise.php file into your wp-content directory. The plugin includes a file called sunrise.php in the main plugin directory. Now that you've installed the plugin, navigate to the directory <code>public_html/wp-content/plugins/domain-mapping-system/</code> in your File Manager or FTP/SFTP browser.</p>
+<p>Duplicate the <code>sunrise.php</code> file found in the plugin directory.</p>
+<p>Then, move the duplicated file to the <code>wp-content</code> directory.</p>
+<p>The duplicated file will have been automatically renamed, so change the name back to <code>sunrise.php</code>.</p>
+<p>Your <code>wp-content</code> directory should look something like this:</p>
+<p><img src="/assets/images/d4739672d2cf343b8da490f610d23cbb.png" alt="" /></p>
+<p>The reason for keeping the original in place is in case anything ever happens to the duplicated file - you'll easily be able to replace it with the latest version.</p>
+<p>Here's how it looks only in the wp-content directory (closed).</p>
+<p>sunrise.php File in the wp-content Directory</p>
+<p><img src="/assets/images/d8f39477ce71c4e7c1fe30a005f7dfc0.png" alt="" /></p>
+<p>Once you've completed the two steps above, go back to your WP-Admin Dashboard and refresh the page.</p>
+<p>When the plugin detects the proper configuration, the notification will disappear.</p>
+<p>Feel free to switch between your sites and map domains!</p>
+<div class="info-block info-block-info"><div class="info-block-icon"><img src="https://www.notion.so/icons/info-alternate_blue.svg" alt="https://www.notion.so/icons/info-alternate_blue.svg" /></div><div class="info-block-content"><p>Ensure every mapped domain has been configured properly by following our <a href="/domain-mapping-system-docs/overview-how-to-map-domains/">Quick Setup</a> guide.</p></div></div>
+<h3 id="alias-domain-authentication-requirements"><strong>Alias Domain Authentication Requirements</strong></h3>
+<p>If you are trying to configure <a href="https://domainmappingsystem.gitbook.io/domainmappingsystem-docs/features/alias-domain-authentication">Alias Domain Authentication</a> or <a href="https://domainmappingsystem.gitbook.io/domainmappingsystem-docs/features/subdomain-authentication">Subdomain Authentication</a> on a multisite, you must update the sunrise.php to change this string from this:</p>
+<pre><code>if ( ! is_multisite() || $is_admin ) {
+    return $site;
+}</code></pre>
+<p>To this:</p>
+<pre><code>if ( ! is_multisite() || ! $is_admin ) {
+    return $site;
+}</code></pre>
+                </article>
+            </main>
+
+            <!-- Right Sidebar: Table of Contents -->
+            <aside class="sidebar sidebar-right">
+                <nav class="toc" id="toc">
+                    <h4>On This Page</h4><ul class="toc-list"><ul class="toc-sublist"><li class="toc-item toc-h3"><a href="#modify-wp-config-php-file">Modify wp-config.php File</a></li><li class="toc-item toc-h3"><a href="#move-the-sunrise-php-file-into-wp-content-directory">Move the sunrise.php File into wp-content Directory</a></li><li class="toc-item toc-h3"><a href="#alias-domain-authentication-requirements">Alias Domain Authentication Requirements</a></li></ul></li></ul>
+                </nav>
+            </aside>
+        </div>
+    </div>
+
+    <script>
+        // Expose base path and assets path for JS modules
+        window.DOCS_CONFIG = {
+            basePath: '',
+            assetsPath: '/assets/assets/',
+            currentUrl: '/domain-mapping-system-docs/features/multisite-integration/'
+        };
+    </script>
+    <script src="/assets/assets/js/navigation.js"></script>
+    <script src="/assets/assets/js/toc.js"></script>
+    <script src="/assets/assets/js/search.js"></script>
+</body>
+</html>

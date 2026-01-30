@@ -1,0 +1,760 @@
+[
+    {
+        "title": "Domain Mapping System Docs",
+        "url": "/domain-mapping-system-docs/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs"
+        ],
+        "headings": [
+            "Welcome",
+            "Thanks for using Domain Mapping System!",
+            "Here are a few important things to help you set up Domain Mapping System to work properly."
+        ]
+    },
+    {
+        "title": "Changelog",
+        "url": "/domain-mapping-system-docs/changelog/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Changelog"
+        ],
+        "headings": [
+            "Version 2.2.2 - Dec 11, 2024",
+            "Version 2.2.1 - Dec 10, 2024",
+            "Version 2.2.0 - Dec 10, 2024",
+            "Version 2.1.9 - Dec 10, 2024",
+            "Version 2.1.8 - Dec 9, 2024",
+            "Version 2.1.7 - Dec 4, 2024",
+            "Version 2.1.6 - Dec 3, 2024",
+            "Version 2.1.5 - Nov 22, 2024",
+            "Version 2.1.4 - Nov 13, 2024",
+            "Version 2.1.3 - Nov 9, 2024",
+            "Version 2.1.2 - Oct 24, 2024",
+            "Version 2.1.1 - Oct 18, 2024",
+            "Version 2.1.0 - Oct 14, 2024",
+            "Version 2.0.9 - Oct 8, 2024",
+            "Version 2.0.8 - Sept 25, 2024",
+            "Version 2.0.7 - Sept 18, 2024",
+            "Version 2.0.6 - Aug 9, 2024",
+            "Version 2.0.5 - Aug 6, 2024",
+            "Version 2.0.4 - July 18, 2024",
+            "Version 2.0.3 - July 17, 2024",
+            "Version 2.0.2 - July 15, 2024",
+            "Version 2.0.1 - July 12, 2024",
+            "Version 2.0 - July 7, 2024",
+            "Version 1.9.9 - April 23, 2024",
+            "Version 1.9.8 - March 28, 2024",
+            "Version 1.9.7 - February 27, 2024",
+            "Version 1.9.6 - December 8, 2023",
+            "Version 1.9.5 - November 30, 2023",
+            "Version 1.9.4 - August 9, 2023",
+            "Version 1.9.3 - July 5, 2023",
+            "Version 1.9.2 - May 30, 2023",
+            "Version 1.9.1 - April 6, 2023",
+            "Version 1.9.0 - February 28, 2023",
+            "Version 1.8.4 - September 16, 2022",
+            "Version 1.8.3 - August 26, 2022",
+            "Version 1.8.2 - August 12, 2022",
+            "Version 1.8.1 - July 29, 2022",
+            "Version 1.8 - July 15, 2022",
+            "Version 1.7.7 - July 1, 2022",
+            "Version 1.7.6 - May 27, 2022",
+            "Version 1.7.5 - May 16, 2022",
+            "Version 1.7.4 - May 1, 2022",
+            "Version 1.7.3 - April 29, 2022",
+            "Version 1.7.2 - April 15, 2022",
+            "Version 1.7.1 - March 18, 2022",
+            "Version 1.7 - March 4, 2022",
+            "Version 1.6.7 - January 27, 2022",
+            "Version 1.6.6 - January 6, 2022",
+            "Version 1.6.5 - December 23, 2021",
+            "Version 1.6.4 - November 09, 2021",
+            "Version 1.6.3 - October 29, 2021",
+            "Version 1.6.3 - October 29, 2021",
+            "Version 1.6.2 - October 19, 2021",
+            "Version 1.6.2 - October 19, 2021",
+            "Version 1.6.1 - October 11, 2021",
+            "Version 1.6 - October 7, 2021",
+            "Version 1.5.2 - August 31, 2021",
+            "Version 1.5.1 - August 24, 2021",
+            "Version 1.5 - August 21, 2021",
+            "Version 1.4.7 - August 08, 2021",
+            "Version 1.4.6 - July 27, 2021",
+            "Version 1.4.5 - July 07, 2021",
+            "Version 1.4.4 - April 30, 2021",
+            "Version 1.4.3 - March 01, 2021",
+            "Version 1.4.2 - November 12, 2020",
+            "Version 1.4.1 - October 13, 2020",
+            "Version 1.4",
+            "Version 1.3.2",
+            "Version 1.3.1",
+            "Version 1.3",
+            "Version 1.2.1",
+            "Version 1.2",
+            "Version 1.1",
+            "Version 1.0 - May 13, 2012"
+        ]
+    },
+    {
+        "title": "Common Issues",
+        "url": "/domain-mapping-system-docs/common-issues/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Common Issues"
+        ],
+        "headings": []
+    },
+    {
+        "title": "CORS Policy",
+        "url": "/domain-mapping-system-docs/common-issues/cors-policy/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Common Issues",
+            "CORS Policy"
+        ],
+        "headings": [
+            "CORS Causing Missing Images/Assets",
+            "Tiger Protect"
+        ]
+    },
+    {
+        "title": "Caching",
+        "url": "/domain-mapping-system-docs/common-issues/caching/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Common Issues",
+            "Caching"
+        ],
+        "headings": [
+            "Server-level or cPanel Caching",
+            "CDN Caching"
+        ]
+    },
+    {
+        "title": "Known Plugin Conflicts",
+        "url": "/domain-mapping-system-docs/common-issues/known-plugin-conflicts/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Common Issues",
+            "Known Plugin Conflicts"
+        ],
+        "headings": [
+            "Yoast SEO [resolved]",
+            "Theme Template Incompatibility (Jupiter theme, etc) [resolved]",
+            "ASE Plugin causing Redirects"
+        ]
+    },
+    {
+        "title": "SSL for Multiple Domains",
+        "url": "/domain-mapping-system-docs/common-issues/ssl-for-multiple-domains/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Common Issues",
+            "SSL for Multiple Domains"
+        ],
+        "headings": []
+    },
+    {
+        "title": "FAQs",
+        "url": "/domain-mapping-system-docs/faqs/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "FAQs"
+        ],
+        "headings": []
+    },
+    {
+        "title": "Is the htaccess file modified",
+        "url": "/domain-mapping-system-docs/faqs/is-the-htaccess-file-modified/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "FAQs",
+            "Is the htaccess file modified"
+        ],
+        "headings": []
+    },
+    {
+        "title": "What are DNS Records",
+        "url": "/domain-mapping-system-docs/faqs/what-are-dns-records/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "FAQs",
+            "What are DNS Records"
+        ],
+        "headings": []
+    },
+    {
+        "title": "What is a domain Alias",
+        "url": "/domain-mapping-system-docs/faqs/what-is-a-domain-alias/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "FAQs",
+            "What is a domain Alias"
+        ],
+        "headings": [
+            "Definition",
+            "Relevance to WordPress",
+            "End Goal: Multiple domains on a single WordPress site"
+        ]
+    },
+    {
+        "title": "Why is a directory created in the mu-plugins folde",
+        "url": "/domain-mapping-system-docs/faqs/why-is-a-directory-created-in-the-mu-plugins-folde/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "FAQs",
+            "Why is a directory created in the mu-plugins folde"
+        ],
+        "headings": []
+    },
+    {
+        "title": "Why isn't my domain secure",
+        "url": "/domain-mapping-system-docs/faqs/why-isn-t-my-domain-secure/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "FAQs",
+            "Why isn't my domain secure"
+        ],
+        "headings": []
+    },
+    {
+        "title": "Features",
+        "url": "/domain-mapping-system-docs/features/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Features"
+        ],
+        "headings": []
+    },
+    {
+        "title": "404 Handling",
+        "url": "/domain-mapping-system-docs/features/404-handling/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Features",
+            "404 Handling"
+        ],
+        "headings": []
+    },
+    {
+        "title": "Alias Domain Authentication",
+        "url": "/domain-mapping-system-docs/features/alias-domain-authentication/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Features",
+            "Alias Domain Authentication"
+        ],
+        "headings": [
+            "Selective Alias Domain Authentication",
+            "Multisite Requirements"
+        ]
+    },
+    {
+        "title": "Creating Microsites - Multisite Alternative",
+        "url": "/domain-mapping-system-docs/features/creating-microsites-multisite-alternative/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Features",
+            "Creating Microsites - Multisite Alternative"
+        ],
+        "headings": [
+            "Microsite Homepage"
+        ]
+    },
+    {
+        "title": "Custom head and body Code per Domain",
+        "url": "/domain-mapping-system-docs/features/custom-head-and-body-code-per-domain/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Features",
+            "Custom head and body Code per Domain"
+        ],
+        "headings": []
+    },
+    {
+        "title": "Domain Mapping",
+        "url": "/domain-mapping-system-docs/features/domain-mapping/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Features",
+            "Domain Mapping"
+        ],
+        "headings": []
+    },
+    {
+        "title": "Favicon per Domain",
+        "url": "/domain-mapping-system-docs/features/favicon-per-domain/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Features",
+            "Favicon per Domain"
+        ],
+        "headings": []
+    },
+    {
+        "title": "Global Archive Category Mapping",
+        "url": "/domain-mapping-system-docs/features/global-archive-category-mapping/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Features",
+            "Global Archive Category Mapping"
+        ],
+        "headings": []
+    },
+    {
+        "title": "Global Domain Mapping",
+        "url": "/domain-mapping-system-docs/features/global-domain-mapping/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Features",
+            "Global Domain Mapping"
+        ],
+        "headings": [
+            "Map Published Content Globally",
+            "Selective Global Domain Mapping"
+        ]
+    },
+    {
+        "title": "Global Parent Page Mapping",
+        "url": "/domain-mapping-system-docs/features/global-parent-page-mapping/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Features",
+            "Global Parent Page Mapping"
+        ],
+        "headings": []
+    },
+    {
+        "title": "Global Product Mapping for WooCommerce",
+        "url": "/domain-mapping-system-docs/features/global-product-mapping-for-woocommerce/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Features",
+            "Global Product Mapping for WooCommerce"
+        ],
+        "headings": []
+    },
+    {
+        "title": "Language per Domain",
+        "url": "/domain-mapping-system-docs/features/language-per-domain/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Features",
+            "Language per Domain"
+        ],
+        "headings": []
+    },
+    {
+        "title": "Menu per Domain",
+        "url": "/domain-mapping-system-docs/features/menu-per-domain/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Features",
+            "Menu per Domain"
+        ],
+        "headings": []
+    },
+    {
+        "title": "Multisite Integration",
+        "url": "/domain-mapping-system-docs/features/multisite-integration/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Features",
+            "Multisite Integration"
+        ],
+        "headings": [
+            "Modify wp-config.php File",
+            "Move the sunrise.php File into wp-content Directory",
+            "Alias Domain Authentication Requirements"
+        ]
+    },
+    {
+        "title": "Query String Parameters",
+        "url": "/domain-mapping-system-docs/features/query-string-parameters/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Features",
+            "Query String Parameters"
+        ],
+        "headings": []
+    },
+    {
+        "title": "REST API",
+        "url": "/domain-mapping-system-docs/features/rest-api/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Features",
+            "REST API"
+        ],
+        "headings": [
+            "About Authentication Flow",
+            "Rest API Documentation",
+            "Base URL",
+            "Authentication",
+            "Endpoints",
+            "1. Mappings",
+            "2. Mapping Values",
+            "3. Batch Operations",
+            "Response Format"
+        ]
+    },
+    {
+        "title": "Filters and Actions",
+        "url": "/domain-mapping-system-docs/features/rest-api/filters-and-actions/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Features",
+            "REST API",
+            "Filters and Actions"
+        ],
+        "headings": [
+            "Filters",
+            "1. dms_object_mapper",
+            "2. dms_available_content_types",
+            "3. dms_is_unmapped_scenario",
+            "4. dms_validate_object_id",
+            "5. dms_allowed_object_types",
+            "6. dms_mapping_value_name",
+            "7. dms_mapping_value_link",
+            "8. dms_mapping_value_mapped_link",
+            "9. dms_wp_object_value_title",
+            "10. dms_wp_object_value_link",
+            "11. dms_wp_object_repository",
+            "12. dms_global_domain_mapping_path_info",
+            "13. dms_request_params_path",
+            "14. dms_mapping_value",
+            "15. dms_enable_redirect_for_mapped_pages",
+            "16. dms_mapping_scenarios_list",
+            "17. dms_force_redirection_uri",
+            "18. dms_trp_prevent_redirection",
+            "19. dms_wc_account_unmapped_scenario",
+            "20. dms_available_languages",
+            "21. dms_allowed_object_groups",
+            "Actions",
+            "1. dms_rewrite_uris"
+        ]
+    },
+    {
+        "title": "Redirect Site Visitors to Mapped Domains",
+        "url": "/domain-mapping-system-docs/features/redirect-site-visitors-to-mapped-domains/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Features",
+            "Redirect Site Visitors to Mapped Domains"
+        ],
+        "headings": []
+    },
+    {
+        "title": "Subdirectory Mapping",
+        "url": "/domain-mapping-system-docs/features/subdirectory-mapping/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Features",
+            "Subdirectory Mapping"
+        ],
+        "headings": []
+    },
+    {
+        "title": "Subdomain Authentication",
+        "url": "/domain-mapping-system-docs/features/subdomain-authentication/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Features",
+            "Subdomain Authentication"
+        ],
+        "headings": [
+            "Selective Subdomain Authentication",
+            "WooCommerce Subdomain Authentication",
+            "Multisite Requirements"
+        ]
+    },
+    {
+        "title": "Subdomain Mapping",
+        "url": "/domain-mapping-system-docs/features/subdomain-mapping/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Features",
+            "Subdomain Mapping"
+        ],
+        "headings": []
+    },
+    {
+        "title": "URL Rewriting",
+        "url": "/domain-mapping-system-docs/features/url-rewriting/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Features",
+            "URL Rewriting"
+        ],
+        "headings": [
+            "Global URL Rewriting",
+            "What URLs are rewritten?",
+            "Selective URL Rewriting"
+        ]
+    },
+    {
+        "title": "Integrations & Compatibility",
+        "url": "/domain-mapping-system-docs/integrations-compatibility/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Integrations & Compatibility"
+        ],
+        "headings": []
+    },
+    {
+        "title": "Supported Hosting Platforms",
+        "url": "/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Integrations & Compatibility",
+            "Supported Hosting Platforms"
+        ],
+        "headings": [
+            "Supported Hosting Platforms",
+            "Hosting Platforms with Limited Support",
+            "Unsupported Hosting Platforms"
+        ]
+    },
+    {
+        "title": "How do I create a Domain Pointer in DirectAdmin",
+        "url": "/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-create-a-domain-pointer-in-directadmin/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Integrations & Compatibility",
+            "Supported Hosting Platforms",
+            "How do I create a Domain Pointer in DirectAdmin"
+        ],
+        "headings": []
+    },
+    {
+        "title": "How do I set up a Domain Alias with VULTR hosting",
+        "url": "/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-vultr-hosting/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Integrations & Compatibility",
+            "Supported Hosting Platforms",
+            "How do I set up a Domain Alias with VULTR hosting"
+        ],
+        "headings": []
+    },
+    {
+        "title": "How do I set up a Domain Alias with cPanel",
+        "url": "/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-cpanel/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Integrations & Compatibility",
+            "Supported Hosting Platforms",
+            "How do I set up a Domain Alias with cPanel"
+        ],
+        "headings": []
+    },
+    {
+        "title": "How do I set up a domain Alias with Plesk",
+        "url": "/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-plesk/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Integrations & Compatibility",
+            "Supported Hosting Platforms",
+            "How do I set up a domain Alias with Plesk"
+        ],
+        "headings": []
+    },
+    {
+        "title": "WordPress Plugins",
+        "url": "/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Integrations & Compatibility",
+            "WordPress Plugins"
+        ],
+        "headings": []
+    },
+    {
+        "title": "Borlabs Cookie",
+        "url": "/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/borlabs-cookie/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Integrations & Compatibility",
+            "WordPress Plugins",
+            "Borlabs Cookie"
+        ],
+        "headings": []
+    },
+    {
+        "title": "Multiple Domain Mapping",
+        "url": "/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/multiple-domain-mapping/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Integrations & Compatibility",
+            "WordPress Plugins",
+            "Multiple Domain Mapping"
+        ],
+        "headings": []
+    },
+    {
+        "title": "PolyLang",
+        "url": "/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/polylang/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Integrations & Compatibility",
+            "WordPress Plugins",
+            "PolyLang"
+        ],
+        "headings": []
+    },
+    {
+        "title": "W3 Total Cache",
+        "url": "/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/w3-total-cache/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Integrations & Compatibility",
+            "WordPress Plugins",
+            "W3 Total Cache"
+        ],
+        "headings": []
+    },
+    {
+        "title": "WP Rocket",
+        "url": "/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/wp-rocket/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Integrations & Compatibility",
+            "WordPress Plugins",
+            "WP Rocket"
+        ],
+        "headings": []
+    },
+    {
+        "title": "WPML",
+        "url": "/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/wpml/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Integrations & Compatibility",
+            "WordPress Plugins",
+            "WPML"
+        ],
+        "headings": []
+    },
+    {
+        "title": "Yoast SEO",
+        "url": "/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/yoast-seo/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Integrations & Compatibility",
+            "WordPress Plugins",
+            "Yoast SEO"
+        ],
+        "headings": [
+            "Custom Meta Content per Domain",
+            "Sitemap per Domain"
+        ]
+    },
+    {
+        "title": "Misc",
+        "url": "/domain-mapping-system-docs/misc/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Misc"
+        ],
+        "headings": []
+    },
+    {
+        "title": "Pagination",
+        "url": "/domain-mapping-system-docs/misc/pagination/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Misc",
+            "Pagination"
+        ],
+        "headings": []
+    },
+    {
+        "title": "Overview How to Map Domains",
+        "url": "/domain-mapping-system-docs/overview-how-to-map-domains/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Overview How to Map Domains"
+        ],
+        "headings": [
+            "Step 1: Configure your server settings and DNS records",
+            "Step 2: Go to Domain Mapping on the WordPress Admin menu bar",
+            "Step 3: Select the post types for which you want to map domains.",
+            "Step 4: Add the domain you want to map in the list and Select the post your website should display for that domain.",
+            "Step 5: Visit both domains and test the mapping is configured properly."
+        ]
+    },
+    {
+        "title": "Requirements",
+        "url": "/domain-mapping-system-docs/requirements/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Requirements"
+        ],
+        "headings": []
+    },
+    {
+        "title": "Configuring DNS Records",
+        "url": "/domain-mapping-system-docs/requirements/configuring-dns-records/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Requirements",
+            "Configuring DNS Records"
+        ],
+        "headings": [
+            "DNS Records"
+        ]
+    },
+    {
+        "title": "Server Configuration",
+        "url": "/domain-mapping-system-docs/requirements/server-configuration/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Requirements",
+            "Server Configuration"
+        ],
+        "headings": [
+            "This page explains how to configure your server to map multiple domains to a single website."
+        ]
+    },
+    {
+        "title": "Localhost Configuration",
+        "url": "/domain-mapping-system-docs/requirements/server-configuration/localhost-configuration/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Requirements",
+            "Server Configuration",
+            "Localhost Configuration"
+        ],
+        "headings": [
+            "Editing Hosts File on MacOS",
+            "Editing Hosts File on Windows"
+        ]
+    },
+    {
+        "title": "Troubleshooting Guide",
+        "url": "/domain-mapping-system-docs/troubleshooting-guide/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Troubleshooting Guide"
+        ],
+        "headings": [
+            "Contacting Support",
+            "The Importance of Disabling Caching or Clearing your Cache",
+            "Basic DNS/Server Troubleshooting",
+            "Mapped Domain is Redirecting or Showing an Insecure Website Warning",
+            "Mapped Domain is Not Showing Primary Site",
+            "Critical Errors or Mapped Domain is Working but Some Content is Displaying Improperly",
+            "Reverting to the Default WordPress Configuration",
+            "Opening a Support Ticket"
+        ]
+    },
+    {
+        "title": "Video Guides",
+        "url": "/domain-mapping-system-docs/video-guides/",
+        "breadcrumbs": [
+            "Domain Mapping System Docs",
+            "Video Guides"
+        ],
+        "headings": []
+    }
+]

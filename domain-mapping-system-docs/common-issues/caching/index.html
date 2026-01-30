@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caching - Domain Mapping System Docs</title>
+    <meta name="description" content="Caching">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    <div class="docs-container">
+        <!-- Top Bar -->
+        <header class="top-bar">
+            <div class="logo">
+                <a href="/">Domain Mapping System Docs</a>
+            </div>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search documentation..." autocomplete="off">
+                <div id="search-results" class="search-results"></div>
+            </div>
+        </header>
+
+        <!-- Main Layout -->
+        <div class="main-layout">
+            <!-- Left Sidebar: Navigation -->
+            <aside class="sidebar sidebar-left">
+                <nav class="navigation" id="navigation">
+                    <ul class="nav-tree"><li class="nav-item" data-depth="1"><a href="/domain-mapping-system-docs/overview-how-to-map-domains/">Overview How to Map Domains</a></li><li class="nav-item" data-depth="1"><a href="/domain-mapping-system-docs/video-guides/">Video Guides</a></li><li class="nav-item" data-depth="1"><a href="/domain-mapping-system-docs/troubleshooting-guide/">Troubleshooting Guide</a></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/requirements/">Requirements</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/requirements/configuring-dns-records/">Configuring DNS Records</a></li><li class="nav-item has-children" data-depth="2"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/requirements/server-configuration/">Server Configuration</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/requirements/server-configuration/localhost-configuration/">Localhost Configuration</a></li></ul></li></ul></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/features/">Features</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/domain-mapping/">Domain Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/creating-microsites-multisite-alternative/">Creating Microsites - Multisite Alternative</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/global-domain-mapping/">Global Domain Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/global-archive-category-mapping/">Global Archive Category Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/global-parent-page-mapping/">Global Parent Page Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/global-product-mapping-for-woocommerce/">Global Product Mapping for WooCommerce</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/subdomain-mapping/">Subdomain Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/subdirectory-mapping/">Subdirectory Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/redirect-site-visitors-to-mapped-domains/">Redirect Site Visitors to Mapped Domains</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/url-rewriting/">URL Rewriting</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/query-string-parameters/">Query String Parameters</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/language-per-domain/">Language per Domain</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/favicon-per-domain/">Favicon per Domain</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/multisite-integration/">Multisite Integration</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/custom-head-and-body-code-per-domain/">Custom head and body Code per Domain</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/menu-per-domain/">Menu per Domain</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/404-handling/">404 Handling</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/alias-domain-authentication/">Alias Domain Authentication</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/subdomain-authentication/">Subdomain Authentication</a></li><li class="nav-item has-children" data-depth="2"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/features/rest-api/">REST API</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/features/rest-api/filters-and-actions/">Filters and Actions</a></li></ul></li></ul></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/integrations-compatibility/">Integrations &amp; Compatibility</a><ul class="nav-children"><li class="nav-item has-children" data-depth="2"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/">WordPress Plugins</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/yoast-seo/">Yoast SEO</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/polylang/">PolyLang</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/w3-total-cache/">W3 Total Cache</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/wp-rocket/">WP Rocket</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/multiple-domain-mapping/">Multiple Domain Mapping</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/wpml/">WPML</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/borlabs-cookie/">Borlabs Cookie</a></li></ul></li><li class="nav-item has-children" data-depth="2"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/">Supported Hosting Platforms</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-cpanel/">How do I set up a Domain Alias with cPanel</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-vultr-hosting/">How do I set up a Domain Alias with VULTR hosting</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-plesk/">How do I set up a domain Alias with Plesk</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-create-a-domain-pointer-in-directadmin/">How do I create a Domain Pointer in DirectAdmin</a></li></ul></li></ul></li><li class="nav-item has-children expanded" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/common-issues/">Common Issues</a><ul class="nav-children"><li class="nav-item active expanded" data-depth="2"><a href="/domain-mapping-system-docs/common-issues/caching/">Caching</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/common-issues/ssl-for-multiple-domains/">SSL for Multiple Domains</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/common-issues/cors-policy/">CORS Policy</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/common-issues/known-plugin-conflicts/">Known Plugin Conflicts</a></li></ul></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/faqs/">FAQs</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/faqs/what-are-dns-records/">What are DNS Records</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/faqs/what-is-a-domain-alias/">What is a domain Alias</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/faqs/why-isn-t-my-domain-secure/">Why isn&#039;t my domain secure</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/faqs/is-the-htaccess-file-modified/">Is the htaccess file modified</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/faqs/why-is-a-directory-created-in-the-mu-plugins-folde/">Why is a directory created in the mu-plugins folde</a></li></ul></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/misc/">Misc</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/misc/pagination/">Pagination</a></li></ul></li><li class="nav-item" data-depth="1"><a href="/domain-mapping-system-docs/changelog/">Changelog</a></li></ul>
+                </nav>
+            </aside>
+
+            <!-- Content Area -->
+            <main class="content">
+                <article class="markdown-content">
+                    <h1 id="caching">Caching</h1>
+<div class="info-block info-block-warning"><div class="info-block-icon"><img src="https://www.notion.so/icons/report_orange.svg" alt="https://www.notion.so/icons/report_orange.svg" /></div><div class="info-block-content"><p>Be sure to clear your cache after making Domain Mapping changes.</p></div></div>
+<p>If you notice that your URL isn't updating after changing the settings in DMS, ensure that your various caching layers are not getting in the way.</p>
+<p>It might drive you crazy that your mapped domains don't appear to be changing, when it's just simple caching getting in the way.</p>
+<h2 id="server-level-or-cpanel-caching"><strong>Server-level or cPanel Caching</strong></h2>
+<ol>
+<li>Your server or cPanel caching would be the first place to check. Go to Cache Manager in cPanel (if available), and clear the cache for your domains.</li>
+</ol>
+<p><img src="https://domainmappingsystem.gitbook.io/~gitbook/image?url=https%3A%2F%2Fs3.amazonaws.com%2Fcdn.freshdesk.com%2Fdata%2Fhelpdesk%2Fattachments%2Fproduction%2F66001310384%2Foriginal%2FaPRj8sDX3XnbVwGlS0ZWl9KT_cOwO1GxDg.png%3F1604014696&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=e3b07fe7&amp;sv=2" alt="" /></p>
+<ol start="2">
+<li>Ensure that no other server-side caching mechanisms are getting in the way either. Contact your system administrator or hosting company to double check. Our priority support team can also help by opening a ticket.</li>
+</ol>
+<h2 id="cdn-caching"><strong>CDN Caching</strong></h2>
+<p>If you're using a CDN service like CloudFlare, ensure that you're in &quot;Development Mode&quot; for smooth sailing when configuring the mapped settings in DMS. After it's set up properly, you can let CloudFlare run normally (by switching off development mode).</p>
+<p><img src="/assets/images/2bcf20c50b3c34aa96a40ea1ce1eb587.png" alt="" /></p>
+                </article>
+            </main>
+
+            <!-- Right Sidebar: Table of Contents -->
+            <aside class="sidebar sidebar-right">
+                <nav class="toc" id="toc">
+                    <h4>On This Page</h4><ul class="toc-list"><li class="toc-item toc-h2"><a href="#server-level-or-cpanel-caching">Server-level or cPanel Caching</a><li class="toc-item toc-h2"><a href="#cdn-caching">CDN Caching</a></li></ul>
+                </nav>
+            </aside>
+        </div>
+    </div>
+
+    <script>
+        // Expose base path and assets path for JS modules
+        window.DOCS_CONFIG = {
+            basePath: '',
+            assetsPath: '/assets/assets/',
+            currentUrl: '/domain-mapping-system-docs/common-issues/caching/'
+        };
+    </script>
+    <script src="/assets/assets/js/navigation.js"></script>
+    <script src="/assets/assets/js/toc.js"></script>
+    <script src="/assets/assets/js/search.js"></script>
+</body>
+</html>

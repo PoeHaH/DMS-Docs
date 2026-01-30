@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supported Hosting Platforms - Domain Mapping System Docs</title>
+    <meta name="description" content="Supported Hosting Platforms">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    <div class="docs-container">
+        <!-- Top Bar -->
+        <header class="top-bar">
+            <div class="logo">
+                <a href="/">Domain Mapping System Docs</a>
+            </div>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search documentation..." autocomplete="off">
+                <div id="search-results" class="search-results"></div>
+            </div>
+        </header>
+
+        <!-- Main Layout -->
+        <div class="main-layout">
+            <!-- Left Sidebar: Navigation -->
+            <aside class="sidebar sidebar-left">
+                <nav class="navigation" id="navigation">
+                    <ul class="nav-tree"><li class="nav-item" data-depth="1"><a href="/domain-mapping-system-docs/overview-how-to-map-domains/">Overview How to Map Domains</a></li><li class="nav-item" data-depth="1"><a href="/domain-mapping-system-docs/video-guides/">Video Guides</a></li><li class="nav-item" data-depth="1"><a href="/domain-mapping-system-docs/troubleshooting-guide/">Troubleshooting Guide</a></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/requirements/">Requirements</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/requirements/configuring-dns-records/">Configuring DNS Records</a></li><li class="nav-item has-children" data-depth="2"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/requirements/server-configuration/">Server Configuration</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/requirements/server-configuration/localhost-configuration/">Localhost Configuration</a></li></ul></li></ul></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/features/">Features</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/domain-mapping/">Domain Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/creating-microsites-multisite-alternative/">Creating Microsites - Multisite Alternative</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/global-domain-mapping/">Global Domain Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/global-archive-category-mapping/">Global Archive Category Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/global-parent-page-mapping/">Global Parent Page Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/global-product-mapping-for-woocommerce/">Global Product Mapping for WooCommerce</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/subdomain-mapping/">Subdomain Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/subdirectory-mapping/">Subdirectory Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/redirect-site-visitors-to-mapped-domains/">Redirect Site Visitors to Mapped Domains</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/url-rewriting/">URL Rewriting</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/query-string-parameters/">Query String Parameters</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/language-per-domain/">Language per Domain</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/favicon-per-domain/">Favicon per Domain</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/multisite-integration/">Multisite Integration</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/custom-head-and-body-code-per-domain/">Custom head and body Code per Domain</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/menu-per-domain/">Menu per Domain</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/404-handling/">404 Handling</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/alias-domain-authentication/">Alias Domain Authentication</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/subdomain-authentication/">Subdomain Authentication</a></li><li class="nav-item has-children" data-depth="2"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/features/rest-api/">REST API</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/features/rest-api/filters-and-actions/">Filters and Actions</a></li></ul></li></ul></li><li class="nav-item has-children expanded" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/integrations-compatibility/">Integrations &amp; Compatibility</a><ul class="nav-children"><li class="nav-item has-children" data-depth="2"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/">WordPress Plugins</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/yoast-seo/">Yoast SEO</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/polylang/">PolyLang</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/w3-total-cache/">W3 Total Cache</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/wp-rocket/">WP Rocket</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/multiple-domain-mapping/">Multiple Domain Mapping</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/wpml/">WPML</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/borlabs-cookie/">Borlabs Cookie</a></li></ul></li><li class="nav-item active has-children expanded" data-depth="2"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/">Supported Hosting Platforms</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-cpanel/">How do I set up a Domain Alias with cPanel</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-vultr-hosting/">How do I set up a Domain Alias with VULTR hosting</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-plesk/">How do I set up a domain Alias with Plesk</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-create-a-domain-pointer-in-directadmin/">How do I create a Domain Pointer in DirectAdmin</a></li></ul></li></ul></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/common-issues/">Common Issues</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/common-issues/caching/">Caching</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/common-issues/ssl-for-multiple-domains/">SSL for Multiple Domains</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/common-issues/cors-policy/">CORS Policy</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/common-issues/known-plugin-conflicts/">Known Plugin Conflicts</a></li></ul></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/faqs/">FAQs</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/faqs/what-are-dns-records/">What are DNS Records</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/faqs/what-is-a-domain-alias/">What is a domain Alias</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/faqs/why-isn-t-my-domain-secure/">Why isn&#039;t my domain secure</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/faqs/is-the-htaccess-file-modified/">Is the htaccess file modified</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/faqs/why-is-a-directory-created-in-the-mu-plugins-folde/">Why is a directory created in the mu-plugins folde</a></li></ul></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/misc/">Misc</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/misc/pagination/">Pagination</a></li></ul></li><li class="nav-item" data-depth="1"><a href="/domain-mapping-system-docs/changelog/">Changelog</a></li></ul>
+                </nav>
+            </aside>
+
+            <!-- Content Area -->
+            <main class="content">
+                <article class="markdown-content">
+                    <h1 id="supported-hosting-platforms">Supported Hosting Platforms</h1>
+<p>This page discusses what hosting companies support domain mapping and alias domains.</p>
+<p>If your hosting platform offers support for Domain Aliases or to control the Domain Root for each domain handled by your server, then you should be able to set up Domain Mapping System properly. That basically includes:</p>
+<ul>
+<li>Any hosting company providing <a href="https://docs.domainmappingsystem.com/faqs/what-hosting-companies-are-supported/how-do-i-set-up-a-domain-alias-with-cpanel">cPanel</a> access with an Aliases option.</li>
+<li>Any hosting company providing a custom platform that allows Alias Domains, Addon Domains, or Additional Domains to be served for your WordPress site.</li>
+<li>Any VPS or Dedicated Server with root access.</li>
+</ul>
+<div class="info-block info-block-info"><div class="info-block-icon"><img src="https://www.notion.so/icons/info-alternate_blue.svg" alt="https://www.notion.so/icons/info-alternate_blue.svg" /></div><div class="info-block-content"><p>If you are not sure if your hosting company supports alias domains, contact them with this question:</p>
+<p><em>I'd like to add an alias domain to my website. Does your hosting platform allow me to configure an alias domain that is tied to the same root directoy as my core WordPress install and does not redirect to the primary domain?</em></p>
+<p>If the answer is yes, you can use Domain Mapping System on that host. If the answer is no, then you'll have to switch hosts or you may not be able to use Domain Mapping System.</p></div></div>
+<div class="info-block info-block-warning"><div class="info-block-icon"><img src="https://www.notion.so/icons/report_orange.svg" alt="https://www.notion.so/icons/report_orange.svg" /></div><div class="info-block-content"><p>Managed WordPress hosting companies generally will not support multiple domains mapped to a single WordPress installation, but there are exceptions.</p></div></div>
+<h2 id="supported-hosting-platforms"><strong>Supported Hosting Platforms</strong></h2>
+<div class="info-block info-block-info"><div class="info-block-icon"><img src="https://www.notion.so/icons/info-alternate_blue.svg" alt="https://www.notion.so/icons/info-alternate_blue.svg" /></div><div class="info-block-content"><p>We officially recommend Cloudways as the best hosting provider in WordPress in terms of support and cost. They are fully compatible with Domain Mapping System via Alias Domains.</p></div></div>
+<p>We've confirmed the following hosting companies are compatible with Domain Mapping System.</p>
+<ul>
+<li>Cloudways w/ Digital Ocean (confirmed by developer)</li>
+<li>InMotionHosting via <a href="https://docs.domainmappingsystem.com/faqs/what-hosting-companies-are-supported/how-do-i-set-up-a-domain-alias-with-cpanel">cPanel</a> (confirmed by developer)</li>
+<li>GoDaddy (confirmed by developer, requires their proprietary cPanel access)</li>
+<li><a href="https://docs.domainmappingsystem.com/faqs/what-hosting-companies-are-supported/how-do-i-set-up-a-domain-alias-with-vultr-hosting-cloudpanel">VULTR (w/ CloudPanel)</a> (confirmed by customer)</li>
+<li>WPEngine (confirmed by customer)</li>
+<li>Kinsta (confirmed by customer)</li>
+<li><a href="https://docs.domainmappingsystem.com/faqs/what-hosting-companies-are-supported/how-do-i-set-up-a-domain-alias-with-plesk">Plesk</a> (confirmed by customer)</li>
+<li><a href="https://docs.domainmappingsystem.com/faqs/what-hosting-companies-are-supported/how-do-i-create-a-domain-pointer-in-directadmin">DirectAdmin</a> (confirmed by customer)</li>
+<li>o2switch (confirmed by customer)</li>
+<li>Many others are supported just not confirmed.</li>
+</ul>
+<h2 id="hosting-platforms-with-limited-support"><strong>Hosting Platforms with Limited Support</strong></h2>
+<ul>
+<li>Siteground (confirmed by developer; only subdomain mapping will work when a Wildcard Domain is configured on Siteground, however, their Parked Domains mechanism will not work as alias domains).</li>
+<li>Bluehost (confirmed by developer, may depend on the hosting plan you have). cPanel Alias domains may not be available depending on your plan.</li>
+<li>Rocket.net (confirmed by customer, will allow alias domains but they charge $10 per alias domain added to each website).</li>
+</ul>
+<h2 id="unsupported-hosting-platforms"><strong>Unsupported Hosting Platforms</strong></h2>
+<ul>
+<li>Any managed WordPress hosting that does not allow alias domains.</li>
+<li>WordPress.com (confirmed by developer, alias domains redirect to primary domain)</li>
+<li>Infinityfree (confirmed by customer)</li>
+<li>Pressable (confirmed by customer)</li>
+</ul>
+<p>Further reading: </p>
+<p><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-cpanel/"><strong>How do I set up a Domain Alias with cPanel?</strong></a></p>
+<p><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-vultr-hosting/"><strong>How do I set up a Domain Alias with VULTR hosting (CloudPanel)?</strong></a></p>
+<p><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-plesk/"><strong>How do I set up a domain Alias with Plesk?</strong></a></p>
+<p><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-create-a-domain-pointer-in-directadmin/"><strong>How do I create a Domain Pointer in DirectAdmin?</strong></a></p>
+                </article>
+            </main>
+
+            <!-- Right Sidebar: Table of Contents -->
+            <aside class="sidebar sidebar-right">
+                <nav class="toc" id="toc">
+                    <h4>On This Page</h4><ul class="toc-list"><li class="toc-item toc-h2"><a href="#supported-hosting-platforms">Supported Hosting Platforms</a><li class="toc-item toc-h2"><a href="#hosting-platforms-with-limited-support">Hosting Platforms with Limited Support</a><li class="toc-item toc-h2"><a href="#unsupported-hosting-platforms">Unsupported Hosting Platforms</a></li></ul>
+                </nav>
+            </aside>
+        </div>
+    </div>
+
+    <script>
+        // Expose base path and assets path for JS modules
+        window.DOCS_CONFIG = {
+            basePath: '',
+            assetsPath: '/assets/assets/',
+            currentUrl: '/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/'
+        };
+    </script>
+    <script src="/assets/assets/js/navigation.js"></script>
+    <script src="/assets/assets/js/toc.js"></script>
+    <script src="/assets/assets/js/search.js"></script>
+</body>
+</html>

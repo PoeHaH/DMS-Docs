@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changelog - Domain Mapping System Docs</title>
+    <meta name="description" content="Changelog">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    <div class="docs-container">
+        <!-- Top Bar -->
+        <header class="top-bar">
+            <div class="logo">
+                <a href="/">Domain Mapping System Docs</a>
+            </div>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search documentation..." autocomplete="off">
+                <div id="search-results" class="search-results"></div>
+            </div>
+        </header>
+
+        <!-- Main Layout -->
+        <div class="main-layout">
+            <!-- Left Sidebar: Navigation -->
+            <aside class="sidebar sidebar-left">
+                <nav class="navigation" id="navigation">
+                    <ul class="nav-tree"><li class="nav-item" data-depth="1"><a href="/domain-mapping-system-docs/overview-how-to-map-domains.html">Overview How to Map Domains</a></li><li class="nav-item" data-depth="1"><a href="/domain-mapping-system-docs/video-guides.html">Video Guides</a></li><li class="nav-item" data-depth="1"><a href="/domain-mapping-system-docs/troubleshooting-guide.html">Troubleshooting Guide</a></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/requirements.html">Requirements</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/requirements/configuring-dns-records.html">Configuring DNS Records</a></li><li class="nav-item has-children" data-depth="2"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/requirements/server-configuration.html">Server Configuration</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/requirements/server-configuration/localhost-configuration.html">Localhost Configuration</a></li></ul></li></ul></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/features.html">Features</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/domain-mapping.html">Domain Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/creating-microsites-multisite-alternative.html">Creating Microsites - Multisite Alternative</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/global-domain-mapping.html">Global Domain Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/global-archive-category-mapping.html">Global Archive Category Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/global-parent-page-mapping.html">Global Parent Page Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/global-product-mapping-for-woocommerce.html">Global Product Mapping for WooCommerce</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/subdomain-mapping.html">Subdomain Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/subdirectory-mapping.html">Subdirectory Mapping</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/redirect-site-visitors-to-mapped-domains.html">Redirect Site Visitors to Mapped Domains</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/url-rewriting.html">URL Rewriting</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/query-string-parameters.html">Query String Parameters</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/language-per-domain.html">Language per Domain</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/favicon-per-domain.html">Favicon per Domain</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/multisite-integration.html">Multisite Integration</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/custom-head-and-body-code-per-domain.html">Custom head and body Code per Domain</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/menu-per-domain.html">Menu per Domain</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/404-handling.html">404 Handling</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/alias-domain-authentication.html">Alias Domain Authentication</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/features/subdomain-authentication.html">Subdomain Authentication</a></li><li class="nav-item has-children" data-depth="2"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/features/rest-api.html">REST API</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/features/rest-api/filters-and-actions.html">Filters and Actions</a></li></ul></li></ul></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/integrations-compatibility.html">Integrations &amp; Compatibility</a><ul class="nav-children"><li class="nav-item has-children" data-depth="2"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins.html">WordPress Plugins</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/yoast-seo.html">Yoast SEO</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/polylang.html">PolyLang</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/w3-total-cache.html">W3 Total Cache</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/wp-rocket.html">WP Rocket</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/multiple-domain-mapping.html">Multiple Domain Mapping</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/wpml.html">WPML</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/borlabs-cookie.html">Borlabs Cookie</a></li></ul></li><li class="nav-item has-children" data-depth="2"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms.html">Supported Hosting Platforms</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-cpanel.html">How do I set up a Domain Alias with cPanel</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-vultr-hosting.html">How do I set up a Domain Alias with VULTR hosting</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-plesk.html">How do I set up a domain Alias with Plesk</a></li><li class="nav-item" data-depth="3"><a href="/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-create-a-domain-pointer-in-directadmin.html">How do I create a Domain Pointer in DirectAdmin</a></li></ul></li></ul></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/common-issues.html">Common Issues</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/common-issues/caching.html">Caching</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/common-issues/ssl-for-multiple-domains.html">SSL for Multiple Domains</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/common-issues/cors-policy.html">CORS Policy</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/common-issues/known-plugin-conflicts.html">Known Plugin Conflicts</a></li></ul></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/faqs.html">FAQs</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/faqs/what-are-dns-records.html">What are DNS Records</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/faqs/what-is-a-domain-alias.html">What is a domain Alias</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/faqs/why-isn-t-my-domain-secure.html">Why isn&#039;t my domain secure</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/faqs/is-the-htaccess-file-modified.html">Is the htaccess file modified</a></li><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/faqs/why-is-a-directory-created-in-the-mu-plugins-folde.html">Why is a directory created in the mu-plugins folde</a></li></ul></li><li class="nav-item has-children" data-depth="1"><span class="nav-toggle"></span><a href="/domain-mapping-system-docs/misc.html">Misc</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/domain-mapping-system-docs/misc/pagination.html">Pagination</a></li></ul></li><li class="nav-item active expanded" data-depth="1"><a href="/domain-mapping-system-docs/changelog.html">Changelog</a></li></ul>
+                </nav>
+            </aside>
+
+            <!-- Content Area -->
+            <main class="content">
+                <article class="markdown-content">
+                    <h1 id="changelog">Changelog</h1>
+<h3 id="version-2-2-2-dec-11-2024"><strong>Version 2.2.2 - Dec 11, 2024</strong></h3>
+<ul>
+<li>Bug fixes</li>
+</ul>
+<h3 id="version-2-2-1-dec-10-2024"><strong>Version 2.2.1 - Dec 10, 2024</strong></h3>
+<ul>
+<li>Bug fixes</li>
+</ul>
+<h3 id="version-2-2-0-dec-10-2024"><strong>Version 2.2.0 - Dec 10, 2024</strong></h3>
+<ul>
+<li>Bug fixes</li>
+</ul>
+<h3 id="version-2-1-9-dec-10-2024"><strong>Version 2.1.9 - Dec 10, 2024</strong></h3>
+<ul>
+<li>Bug fixes</li>
+</ul>
+<h3 id="version-2-1-8-dec-9-2024"><strong>Version 2.1.8 - Dec 9, 2024</strong></h3>
+<ul>
+<li>Bug fixes</li>
+</ul>
+<h3 id="version-2-1-7-dec-4-2024"><strong>Version 2.1.7 - Dec 4, 2024</strong></h3>
+<ul>
+<li>Bug fixes</li>
+</ul>
+<h3 id="version-2-1-6-dec-3-2024"><strong>Version 2.1.6 - Dec 3, 2024</strong></h3>
+<ul>
+<li>TranslatePress integration fixes.</li>
+<li>Fixed some missed URL’s being rewritten in page source.</li>
+<li>General bug fixes and improvements.</li>
+</ul>
+<h3 id="version-2-1-5-nov-22-2024"><strong>Version 2.1.5 - Nov 22, 2024</strong></h3>
+<ul>
+<li>Alias Domain Authentication added!</li>
+<li>URL Rewriting applied on authenticated pages.</li>
+<li>TranslatePress integration improvements.</li>
+<li>Bugfix for error on saving.</li>
+</ul>
+<h3 id="version-2-1-4-nov-13-2024"><strong>Version 2.1.4 - Nov 13, 2024</strong></h3>
+<ul>
+<li>TranslatePress switcher fixes.</li>
+<li>Bug fixes.</li>
+</ul>
+<h3 id="version-2-1-3-nov-9-2024"><strong>Version 2.1.3 - Nov 9, 2024</strong></h3>
+<ul>
+<li>TranslatePress slug and bug fixes.</li>
+<li>Permalink detection warning added.</li>
+<li>Fix to delete all data on uninstall.</li>
+<li>Custom body code per domain added.</li>
+<li>REST API updates.</li>
+</ul>
+<h3 id="version-2-1-2-oct-24-2024"><strong>Version 2.1.2 - Oct 24, 2024</strong></h3>
+<ul>
+<li>TranslatePress integration added.</li>
+<li>WooCommerce Subdomain Authentication added.</li>
+<li>Updated Freemius SDK.</li>
+</ul>
+<h3 id="version-2-1-1-oct-18-2024"><strong>Version 2.1.1 - Oct 18, 2024</strong></h3>
+<ul>
+<li>Mapping dropdown fixes.</li>
+</ul>
+<h3 id="version-2-1-0-oct-14-2024"><strong>Version 2.1.0 - Oct 14, 2024</strong></h3>
+<ul>
+<li>Added Subdomain Authentication.</li>
+<li>Fix for Selective Global mapping mechanism.</li>
+</ul>
+<h3 id="version-2-0-9-oct-8-2024"><strong>Version 2.0.9 - Oct 8, 2024</strong></h3>
+<ul>
+<li>Added icons in the mapping UI to set microsite homepage and link to primary page URL and mapped page URL.</li>
+<li>Added Selective Global Mapping to select which domains should be mapped globally.</li>
+<li>Updated Save Success/Failure messages.</li>
+<li>Stability improvements and bug fixes.</li>
+</ul>
+<h3 id="version-2-0-8-sept-25-2024"><strong>Version 2.0.8 - Sept 25, 2024</strong></h3>
+<ul>
+<li>Freemius integration fix.</li>
+</ul>
+<h3 id="version-2-0-7-sept-18-2024"><strong>Version 2.0.7 - Sept 18, 2024</strong></h3>
+<ul>
+<li>UI improvements.</li>
+<li>Stability improvements / bug fixes.</li>
+<li>Added 404 Handling.</li>
+<li>Added CPT and CPT Archive mapping after new refactor.</li>
+<li>Freemius SDK update.</li>
+</ul>
+<h3 id="version-2-0-6-aug-9-2024"><strong>Version 2.0.6 - Aug 9, 2024</strong></h3>
+<ul>
+<li>Fixes to WooCommerce integration.</li>
+<li>Multisite fixes.</li>
+<li>Theme detection fixes.</li>
+</ul>
+<h3 id="version-2-0-5-aug-6-2024"><strong>Version 2.0.5 - Aug 6, 2024</strong></h3>
+<ul>
+<li>Bugfix for Elementor conflict.</li>
+<li>Added support for WCFM Marketplace plugin post types.</li>
+<li>Bugfix to URL Rewriting.</li>
+<li>CORS compatibility improvements.</li>
+</ul>
+<h3 id="version-2-0-4-july-18-2024"><strong>Version 2.0.4 - July 18, 2024</strong></h3>
+<ul>
+<li>Bug fixes</li>
+</ul>
+<h3 id="version-2-0-3-july-17-2024"><strong>Version 2.0.3 - July 17, 2024</strong></h3>
+<ul>
+<li>Bug fixes.</li>
+</ul>
+<h3 id="version-2-0-2-july-15-2024"><strong>Version 2.0.2 - July 15, 2024</strong></h3>
+<ul>
+<li>Bug fixes.</li>
+</ul>
+<h3 id="version-2-0-1-july-12-2024"><strong>Version 2.0.1 - July 12, 2024</strong></h3>
+<ul>
+<li>Performance improvements and bug fixes.</li>
+</ul>
+<h3 id="version-2-0-july-7-2024"><strong>Version 2.0 - July 7, 2024</strong></h3>
+<ul>
+<li>Major plugin refactor.</li>
+<li>Fixes to Yoast SEO integration.</li>
+</ul>
+<h3 id="version-1-9-9-april-23-2024"><strong>Version 1.9.9 - April 23, 2024</strong></h3>
+<ul>
+<li>Pagination added to the plugin settings area.</li>
+<li>The plugin now automatically sets the default Microsite homepage to the first mapping when the current default is removed.</li>
+<li>Bug fix to saving Selective Rewriting setting.</li>
+<li>Bug fixes to saving internationalized domains.</li>
+<li>Bug fixes to multisite integration.</li>
+<li>Misc plugin and theme conflicts resolved.</li>
+</ul>
+<h3 id="version-1-9-8-march-28-2024"><strong>Version 1.9.8 - March 28, 2024</strong></h3>
+<ul>
+<li>Improved Global URL Rewriting to handle wp_menu() function.</li>
+<li>Special characters in domains are now supported.</li>
+<li>Custom Taxonomies and CPTs now supported.</li>
+<li>Bug fix for WooCommerce Cart ajax updates.</li>
+<li>Updates to child page slug and child page mapping.</li>
+<li>Conflict with Contact Form 7 submission confirmation messages resolved.</li>
+</ul>
+<h3 id="version-1-9-7-february-27-2024"><strong>Version 1.9.7 - February 27, 2024</strong></h3>
+<ul>
+<li>Ability to map empty categories now possible.</li>
+<li>General bug fixes.</li>
+<li>Small UI updates.</li>
+<li>Update Freemius SDK.</li>
+</ul>
+<h3 id="version-1-9-6-december-8-2023"><strong>Version 1.9.6 - December 8, 2023</strong></h3>
+<ul>
+<li>Fixes to Meta details on Yoast SEO integration.</li>
+</ul>
+<h3 id="version-1-9-5-november-30-2023"><strong>Version 1.9.5 - November 30, 2023</strong></h3>
+<ul>
+<li>Yoast SEO integration added!</li>
+<li>Bugfix for mapping blog pages.</li>
+<li>Custom tables now use the default DB engine.</li>
+</ul>
+<h3 id="version-1-9-4-august-9-2023"><strong>Version 1.9.4 - August 9, 2023</strong></h3>
+<ul>
+<li>Update Freemius SDK.</li>
+<li>Added error message when no published resource is selected for a mapping.</li>
+<li>Added a save button below mappings and made all save buttons save all settings.</li>
+<li>Fixes to jquery conflicts.</li>
+<li>Added support for Bedrock configuration.</li>
+</ul>
+<h3 id="version-1-9-3-july-5-2023"><strong>Version 1.9.3 - July 5, 2023</strong></h3>
+<ul>
+<li>Update Freemius SDK.</li>
+</ul>
+<h3 id="version-1-9-2-may-30-2023"><strong>Version 1.9.2 - May 30, 2023</strong></h3>
+<ul>
+<li>Added Global Parent Page mapping.</li>
+<li>Update to UI to display hierarchy of parent pages.</li>
+<li>Favicon fixes.</li>
+<li>Fix to Global URL Rewriting.</li>
+<li>Improvement for Crockblocks compatibility.</li>
+<li>Rankmath compatibility bug fix.</li>
+<li>Freemius SDK update.</li>
+</ul>
+<h3 id="version-1-9-1-april-6-2023"><strong>Version 1.9.1 - April 6, 2023</strong></h3>
+<ul>
+<li>Bugfix to handle when plugins are installed in non-default directory.</li>
+<li>Updates to UI.</li>
+</ul>
+<h3 id="version-1-9-0-february-28-2023"><strong>Version 1.9.0 - February 28, 2023</strong></h3>
+<ul>
+<li>New user interface.</li>
+<li>Added REST API for adding/deleting mappings.</li>
+<li>General bug fixes and stability improvements.</li>
+</ul>
+<h3 id="version-1-8-4-september-16-2022"><strong>Version 1.8.4 - September 16, 2022</strong></h3>
+<ul>
+<li>Fixed URL rewriting issue which was duplicating strings in the URL.</li>
+</ul>
+<h3 id="version-1-8-3-august-26-2022"><strong>Version 1.8.3 - August 26, 2022</strong></h3>
+<ul>
+<li>Fixed conflict with plugin Variation Swatches for WooCommerce.</li>
+</ul>
+<h3 id="version-1-8-2-august-12-2022"><strong>Version 1.8.2 - August 12, 2022</strong></h3>
+<ul>
+<li>Fixed conflict with Plesk while Global Domain Mapping is enabled.</li>
+<li>Updated Freemius SDK to v2.4.5.</li>
+</ul>
+<h3 id="version-1-8-1-july-29-2022"><strong>Version 1.8.1 - July 29, 2022</strong></h3>
+<ul>
+<li>Bug fix for search mechanism not working in some cases.</li>
+<li>Multisite improvements when uninstalling the plugin on network sites.</li>
+<li>Bugfix for Global URL Rewriting not applying correctly.</li>
+</ul>
+<h3 id="version-1-8-july-15-2022"><strong>Version 1.8 - July 15, 2022</strong></h3>
+<ul>
+<li>Multisite integration is now available!</li>
+<li>Freemius SDK update to v2.4.4.</li>
+</ul>
+<h3 id="version-1-7-7-july-1-2022"><strong>Version 1.7.7 - July 1, 2022</strong></h3>
+<ul>
+<li>We’ve added support for sites that are installed as a subdirectory. When a subdirectory install is detected, the .htaccess file is updated with a special snippet to support domain mapping.</li>
+</ul>
+<h3 id="version-1-7-6-may-27-2022"><strong>Version 1.7.6 - May 27, 2022</strong></h3>
+<ul>
+<li>Updates to WPCS integration.</li>
+</ul>
+<h3 id="version-1-7-5-may-16-2022"><strong>Version 1.7.5 - May 16, 2022</strong></h3>
+<ul>
+<li>Integration with Multiple Domain Mapping plugin to easily import mappings.</li>
+</ul>
+<h3 id="version-1-7-4-may-1-2022"><strong>Version 1.7.4 - May 1, 2022</strong></h3>
+<ul>
+<li>Bugfix for DB migration issue on 1.7.3.</li>
+</ul>
+<h3 id="version-1-7-3-april-29-2022"><strong>Version 1.7.3 - April 29, 2022</strong></h3>
+<ul>
+<li>Added Favicon per domain.</li>
+<li>We’ve resolved some complexities that restricted multiple mappings to the same published resource. Now one published resource can have multiple domains attached to it.</li>
+<li>Simultaneously mapping a domain with both the root domain and the root domain + subdirectory is now possible.</li>
+<li>Resolved issues with adding more than 20 mapped domains.</li>
+</ul>
+<h3 id="version-1-7-2-april-15-2022"><strong>Version 1.7.2 - April 15, 2022</strong></h3>
+<ul>
+<li>Further improvements to the WPCS.io integration.</li>
+<li>Fix for Wordence.</li>
+<li>Styling/layout improvements to the Settings area.</li>
+</ul>
+<h3 id="version-1-7-1-march-18-2022"><strong>Version 1.7.1 - March 18, 2022</strong></h3>
+<ul>
+<li>Added WPCS.io integration. SaaS platforms using WPCS can now offer their clients full domain management of their Tenants.</li>
+</ul>
+<h3 id="version-1-7-march-4-2022"><strong>Version 1.7 - March 4, 2022</strong></h3>
+<ul>
+<li>WooCommerce Shop page mapping support.</li>
+<li>Added capability to enable mapping of all WooCommerce products by simply mapping the Shop page.</li>
+<li>Added support for WordPress taxonomies (both native and custom). Taxonomies refer to grouping posts together based on a select number of relationships, like Archives or Categories.</li>
+<li>Added option to enable mapping of all Custom Post Types within a custom taxonomy by just mapping the taxonomy.</li>
+<li>Added the option to rewrite all URLs on a mapped page to the mapped domain with Selective Rewriting or Global Rewriting.</li>
+</ul>
+<h3 id="version-1-6-7-january-27-2022"><strong>Version 1.6.7 - January 27, 2022</strong></h3>
+<ul>
+<li>Fixed an issue with admin_url last param existence.</li>
+</ul>
+<h3 id="version-1-6-6-january-6-2022"><strong>Version 1.6.6 - January 6, 2022</strong></h3>
+<ul>
+<li>Fixed a bug that prevented editing content in Elementor while free version of DMS was activated.</li>
+</ul>
+<h3 id="version-1-6-5-december-23-2021"><strong>Version 1.6.5 - December 23, 2021</strong></h3>
+<ul>
+<li>Fix for critical error when uploading multiple Freemius plugins with icons designated.</li>
+</ul>
+<h3 id="version-1-6-4-november-09-2021"><strong>Version 1.6.4 - November 09, 2021</strong></h3>
+<ul>
+<li>Fixes for conflicts with Yoast SEO and Jupiter theme.</li>
+</ul>
+<h3 id="version-1-6-3-october-29-2021"><strong>Version 1.6.3 - October 29, 2021</strong></h3>
+<ul>
+<li>Fixes for conflicts with Yoast SEO and Jupiter theme.</li>
+<li>The plugin now adds a file into the <code>mu-plugins</code> directory, causing DMS files to be loaded first in order to rewrite some URLs defined by 3rd party plugins. Previously, if DMS was loaded after other plugins, there could be conflicts.</li>
+<li>With the <code>mu-plugins</code> upgrade, we can now provide temporary fixes for plugin conflicts while we work with other teams to improve compatibility.</li>
+</ul>
+<h3 id="version-1-6-3-october-29-2021"><strong>Version 1.6.3 - October 29, 2021</strong></h3>
+<h3 id="version-1-6-2-october-19-2021"><strong>Version 1.6.2 - October 19, 2021</strong></h3>
+<ul>
+<li>The plugin now adds a file into the mu-plugins directory, causing DMS files to be loaded first in order to rewrite some URLs defined by 3rd party plugins. Previously, if DMS was loaded after other plugins, there could be conflicts.</li>
+<li>With the mu-plugins upgrade, we can now provide temporary fixes for plugin conflicts while we work with other teams to improve compatibility.</li>
+</ul>
+<h3 id="version-1-6-2-october-19-2021"><strong>Version 1.6.2 - October 19, 2021</strong></h3>
+<ul>
+<li>Fixed an issue where WordPress icons would be missing in some cases.</li>
+</ul>
+<h3 id="version-1-6-1-october-11-2021"><strong>Version 1.6.1 - October 11, 2021</strong></h3>
+<ul>
+<li>Fixed an issue where subdomain mappings were showing too many redirects when the &quot;Force redirect to mapped pages&quot; option was enabled.</li>
+</ul>
+<h3 id="version-1-6-october-7-2021"><strong>Version 1.6 - October 7, 2021</strong></h3>
+<ul>
+<li>Added Subdirectory mapping! (PRO)</li>
+<li>Major improvement to the way data is stored in the database with custom tables instead of inside the wp_options table.</li>
+<li>Fixes to global domain mapping.</li>
+<li>Fixed an issue appearing in website health check.</li>
+<li>Added an option to fully delete all plugin settings and data on uninstall.</li>
+</ul>
+<h3 id="version-1-5-2-august-31-2021"><strong>Version 1.5.2 - August 31, 2021</strong></h3>
+<ul>
+<li>Fixed conflict with WooCommerce JS.</li>
+</ul>
+<h3 id="version-1-5-1-august-24-2021"><strong>Version 1.5.1 - August 24, 2021</strong></h3>
+<ul>
+<li>Bugfix causing upgrade issues .</li>
+</ul>
+<h3 id="version-1-5-august-21-2021"><strong>Version 1.5 - August 21, 2021</strong></h3>
+<ul>
+<li>Translated into Spanish, Italian, German, French, Chinese, Japanese, Russian, Indonesian, Dutch, Portuguese, and Turkish.</li>
+<li>Added Global Domain Mapping for PRO version.</li>
+<li>Fixed a bug about forcing visitors to view a mapped domain for the homepage.</li>
+</ul>
+<h3 id="version-1-4-7-august-08-2021"><strong>Version 1.4.7 - August 08, 2021</strong></h3>
+<ul>
+<li>Global domain mapping is now supported, so you don’t have to select every post individually anymore!</li>
+<li>Bug fix to stop redirects when the homepage is set in WordPress admin.</li>
+</ul>
+<h3 id="version-1-4-6-july-27-2021"><strong>Version 1.4.6 - July 27, 2021</strong></h3>
+<ul>
+<li>You can now create “subsites” by selecting multiple posts, pages, or custom post types for a single domain.</li>
+<li>UI text upgrades and bug fixes.</li>
+</ul>
+<h3 id="version-1-4-5-july-07-2021"><strong>Version 1.4.5 - July 07, 2021</strong></h3>
+<ul>
+<li>Force site visitors to see the mapped domain of a page (e.g. - disallow visitors to see the primary domain of a page).</li>
+<li>Ensured WP 5.8 compatibility.</li>
+<li>Ensured PHP8 compatibility.</li>
+<li>Update WP Admin menu item to be a top level menu item instead of a submenu item to find it more easily.</li>
+</ul>
+<h3 id="version-1-4-4-april-30-2021"><strong>Version 1.4.4 - April 30, 2021</strong></h3>
+<ul>
+<li>Added support for query strings to PRO version.</li>
+<li>Updated free-premium upgrade flow.</li>
+</ul>
+<h3 id="version-1-4-3-march-01-2021"><strong>Version 1.4.3 - March 01, 2021</strong></h3>
+<ul>
+<li>Updated Freemius SDK.</li>
+</ul>
+<h3 id="version-1-4-2-november-12-2020"><strong>Version 1.4.2 - November 12, 2020</strong></h3>
+<ul>
+<li>Added UI message about server configuration requirements.</li>
+</ul>
+<h3 id="version-1-4-1-october-13-2020"><strong>Version 1.4.1 - October 13, 2020</strong></h3>
+<ul>
+<li>Domain Mapping System has been adopted by the <a href="https://gauchoplugins.com/">Gaucho Plugins</a> team as of September 22, 2020!</li>
+<li>Added Freemius integration, which means:
+<ul>
+<li>Users can get in touch with our team for feature requests, questions, or issues of any kind directly in the WP Admin.</li>
+<li>Users can upgrade plans and manage their license directly in the WP Admin.</li>
+<li>Improved Security &amp; Privacy options allow users to choose what you do with your data via the opt-in mechanism.</li>
+<li>The Gaucho Plugins development team can focus on creating better features and improving Domain Mapping System with easy access to user feedback.</li>
+</ul></li>
+</ul>
+<h3 id="version-1-4"><strong>Version 1.4</strong></h3>
+<ul>
+<li>Adapted to work with WordPress 5.5.</li>
+</ul>
+<h3 id="version-1-3-2"><strong>Version 1.3.2</strong></h3>
+<ul>
+<li>Show all posts/pages/cpt-posts.</li>
+</ul>
+<h3 id="version-1-3-1"><strong>Version 1.3.1</strong></h3>
+<ul>
+<li>Added support for blog post Categories.</li>
+</ul>
+<h3 id="version-1-3"><strong>Version 1.3</strong></h3>
+<ul>
+<li>Code Refactoring, got rid of DMS Menu-Class.</li>
+<li>Added support for Posts.</li>
+<li>Added support for CPT Archives.</li>
+<li>Some Admin-UI tweaks (chosen.js instead of HTML-Select, Post Type Selection).</li>
+<li>Tested with <a href="https://wordpress.org/extend/plugins/wordpress-mu-domain-mapping">WordPress MU Domain Mapping Plugin</a>.</li>
+<li>To provide MU support, users must now be able to change settings instead of installing plugins to use DMS Options (Capabilities).</li>
+</ul>
+<h3 id="version-1-2-1"><strong>Version 1.2.1</strong></h3>
+<ul>
+<li>Fixed empty <select> Bug.</li>
+</ul>
+<h3 id="version-1-2"><strong>Version 1.2</strong></h3>
+<ul>
+<li>Added support for Custom Post Types.</li>
+</ul>
+<h3 id="version-1-1"><strong>Version 1.1</strong></h3>
+<ul>
+<li>Instead of strange page hack, modify page query.</li>
+<li>Remove kill switch as it is unnecessary.</li>
+</ul>
+<h3 id="version-1-0-may-13-2012"><strong>Version 1.0 - May 13, 2012</strong></h3>
+<ul>
+<li>No changes – initial release.</li>
+</ul>
+                </article>
+            </main>
+
+            <!-- Right Sidebar: Table of Contents -->
+            <aside class="sidebar sidebar-right">
+                <nav class="toc" id="toc">
+                    <h4>On This Page</h4><ul class="toc-list"><ul class="toc-sublist"><li class="toc-item toc-h3"><a href="#version-2-2-2-dec-11-2024">Version 2.2.2 - Dec 11, 2024</a></li><li class="toc-item toc-h3"><a href="#version-2-2-1-dec-10-2024">Version 2.2.1 - Dec 10, 2024</a></li><li class="toc-item toc-h3"><a href="#version-2-2-0-dec-10-2024">Version 2.2.0 - Dec 10, 2024</a></li><li class="toc-item toc-h3"><a href="#version-2-1-9-dec-10-2024">Version 2.1.9 - Dec 10, 2024</a></li><li class="toc-item toc-h3"><a href="#version-2-1-8-dec-9-2024">Version 2.1.8 - Dec 9, 2024</a></li><li class="toc-item toc-h3"><a href="#version-2-1-7-dec-4-2024">Version 2.1.7 - Dec 4, 2024</a></li><li class="toc-item toc-h3"><a href="#version-2-1-6-dec-3-2024">Version 2.1.6 - Dec 3, 2024</a></li><li class="toc-item toc-h3"><a href="#version-2-1-5-nov-22-2024">Version 2.1.5 - Nov 22, 2024</a></li><li class="toc-item toc-h3"><a href="#version-2-1-4-nov-13-2024">Version 2.1.4 - Nov 13, 2024</a></li><li class="toc-item toc-h3"><a href="#version-2-1-3-nov-9-2024">Version 2.1.3 - Nov 9, 2024</a></li><li class="toc-item toc-h3"><a href="#version-2-1-2-oct-24-2024">Version 2.1.2 - Oct 24, 2024</a></li><li class="toc-item toc-h3"><a href="#version-2-1-1-oct-18-2024">Version 2.1.1 - Oct 18, 2024</a></li><li class="toc-item toc-h3"><a href="#version-2-1-0-oct-14-2024">Version 2.1.0 - Oct 14, 2024</a></li><li class="toc-item toc-h3"><a href="#version-2-0-9-oct-8-2024">Version 2.0.9 - Oct 8, 2024</a></li><li class="toc-item toc-h3"><a href="#version-2-0-8-sept-25-2024">Version 2.0.8 - Sept 25, 2024</a></li><li class="toc-item toc-h3"><a href="#version-2-0-7-sept-18-2024">Version 2.0.7 - Sept 18, 2024</a></li><li class="toc-item toc-h3"><a href="#version-2-0-6-aug-9-2024">Version 2.0.6 - Aug 9, 2024</a></li><li class="toc-item toc-h3"><a href="#version-2-0-5-aug-6-2024">Version 2.0.5 - Aug 6, 2024</a></li><li class="toc-item toc-h3"><a href="#version-2-0-4-july-18-2024">Version 2.0.4 - July 18, 2024</a></li><li class="toc-item toc-h3"><a href="#version-2-0-3-july-17-2024">Version 2.0.3 - July 17, 2024</a></li><li class="toc-item toc-h3"><a href="#version-2-0-2-july-15-2024">Version 2.0.2 - July 15, 2024</a></li><li class="toc-item toc-h3"><a href="#version-2-0-1-july-12-2024">Version 2.0.1 - July 12, 2024</a></li><li class="toc-item toc-h3"><a href="#version-2-0-july-7-2024">Version 2.0 - July 7, 2024</a></li><li class="toc-item toc-h3"><a href="#version-1-9-9-april-23-2024">Version 1.9.9 - April 23, 2024</a></li><li class="toc-item toc-h3"><a href="#version-1-9-8-march-28-2024">Version 1.9.8 - March 28, 2024</a></li><li class="toc-item toc-h3"><a href="#version-1-9-7-february-27-2024">Version 1.9.7 - February 27, 2024</a></li><li class="toc-item toc-h3"><a href="#version-1-9-6-december-8-2023">Version 1.9.6 - December 8, 2023</a></li><li class="toc-item toc-h3"><a href="#version-1-9-5-november-30-2023">Version 1.9.5 - November 30, 2023</a></li><li class="toc-item toc-h3"><a href="#version-1-9-4-august-9-2023">Version 1.9.4 - August 9, 2023</a></li><li class="toc-item toc-h3"><a href="#version-1-9-3-july-5-2023">Version 1.9.3 - July 5, 2023</a></li><li class="toc-item toc-h3"><a href="#version-1-9-2-may-30-2023">Version 1.9.2 - May 30, 2023</a></li><li class="toc-item toc-h3"><a href="#version-1-9-1-april-6-2023">Version 1.9.1 - April 6, 2023</a></li><li class="toc-item toc-h3"><a href="#version-1-9-0-february-28-2023">Version 1.9.0 - February 28, 2023</a></li><li class="toc-item toc-h3"><a href="#version-1-8-4-september-16-2022">Version 1.8.4 - September 16, 2022</a></li><li class="toc-item toc-h3"><a href="#version-1-8-3-august-26-2022">Version 1.8.3 - August 26, 2022</a></li><li class="toc-item toc-h3"><a href="#version-1-8-2-august-12-2022">Version 1.8.2 - August 12, 2022</a></li><li class="toc-item toc-h3"><a href="#version-1-8-1-july-29-2022">Version 1.8.1 - July 29, 2022</a></li><li class="toc-item toc-h3"><a href="#version-1-8-july-15-2022">Version 1.8 - July 15, 2022</a></li><li class="toc-item toc-h3"><a href="#version-1-7-7-july-1-2022">Version 1.7.7 - July 1, 2022</a></li><li class="toc-item toc-h3"><a href="#version-1-7-6-may-27-2022">Version 1.7.6 - May 27, 2022</a></li><li class="toc-item toc-h3"><a href="#version-1-7-5-may-16-2022">Version 1.7.5 - May 16, 2022</a></li><li class="toc-item toc-h3"><a href="#version-1-7-4-may-1-2022">Version 1.7.4 - May 1, 2022</a></li><li class="toc-item toc-h3"><a href="#version-1-7-3-april-29-2022">Version 1.7.3 - April 29, 2022</a></li><li class="toc-item toc-h3"><a href="#version-1-7-2-april-15-2022">Version 1.7.2 - April 15, 2022</a></li><li class="toc-item toc-h3"><a href="#version-1-7-1-march-18-2022">Version 1.7.1 - March 18, 2022</a></li><li class="toc-item toc-h3"><a href="#version-1-7-march-4-2022">Version 1.7 - March 4, 2022</a></li><li class="toc-item toc-h3"><a href="#version-1-6-7-january-27-2022">Version 1.6.7 - January 27, 2022</a></li><li class="toc-item toc-h3"><a href="#version-1-6-6-january-6-2022">Version 1.6.6 - January 6, 2022</a></li><li class="toc-item toc-h3"><a href="#version-1-6-5-december-23-2021">Version 1.6.5 - December 23, 2021</a></li><li class="toc-item toc-h3"><a href="#version-1-6-4-november-09-2021">Version 1.6.4 - November 09, 2021</a></li><li class="toc-item toc-h3"><a href="#version-1-6-3-october-29-2021">Version 1.6.3 - October 29, 2021</a></li><li class="toc-item toc-h3"><a href="#version-1-6-3-october-29-2021">Version 1.6.3 - October 29, 2021</a></li><li class="toc-item toc-h3"><a href="#version-1-6-2-october-19-2021">Version 1.6.2 - October 19, 2021</a></li><li class="toc-item toc-h3"><a href="#version-1-6-2-october-19-2021">Version 1.6.2 - October 19, 2021</a></li><li class="toc-item toc-h3"><a href="#version-1-6-1-october-11-2021">Version 1.6.1 - October 11, 2021</a></li><li class="toc-item toc-h3"><a href="#version-1-6-october-7-2021">Version 1.6 - October 7, 2021</a></li><li class="toc-item toc-h3"><a href="#version-1-5-2-august-31-2021">Version 1.5.2 - August 31, 2021</a></li><li class="toc-item toc-h3"><a href="#version-1-5-1-august-24-2021">Version 1.5.1 - August 24, 2021</a></li><li class="toc-item toc-h3"><a href="#version-1-5-august-21-2021">Version 1.5 - August 21, 2021</a></li><li class="toc-item toc-h3"><a href="#version-1-4-7-august-08-2021">Version 1.4.7 - August 08, 2021</a></li><li class="toc-item toc-h3"><a href="#version-1-4-6-july-27-2021">Version 1.4.6 - July 27, 2021</a></li><li class="toc-item toc-h3"><a href="#version-1-4-5-july-07-2021">Version 1.4.5 - July 07, 2021</a></li><li class="toc-item toc-h3"><a href="#version-1-4-4-april-30-2021">Version 1.4.4 - April 30, 2021</a></li><li class="toc-item toc-h3"><a href="#version-1-4-3-march-01-2021">Version 1.4.3 - March 01, 2021</a></li><li class="toc-item toc-h3"><a href="#version-1-4-2-november-12-2020">Version 1.4.2 - November 12, 2020</a></li><li class="toc-item toc-h3"><a href="#version-1-4-1-october-13-2020">Version 1.4.1 - October 13, 2020</a></li><li class="toc-item toc-h3"><a href="#version-1-4">Version 1.4</a></li><li class="toc-item toc-h3"><a href="#version-1-3-2">Version 1.3.2</a></li><li class="toc-item toc-h3"><a href="#version-1-3-1">Version 1.3.1</a></li><li class="toc-item toc-h3"><a href="#version-1-3">Version 1.3</a></li><li class="toc-item toc-h3"><a href="#version-1-2-1">Version 1.2.1</a></li><li class="toc-item toc-h3"><a href="#version-1-2">Version 1.2</a></li><li class="toc-item toc-h3"><a href="#version-1-1">Version 1.1</a></li><li class="toc-item toc-h3"><a href="#version-1-0-may-13-2012">Version 1.0 - May 13, 2012</a></li></ul></li></ul>
+                </nav>
+            </aside>
+        </div>
+    </div>
+
+    <script>
+        // Expose base path and assets path for JS modules
+        window.DOCS_CONFIG = {
+            basePath: '',
+            assetsPath: '../assets/',
+            currentUrl: '/domain-mapping-system-docs/changelog.html'
+        };
+    </script>
+    <script src="../assets/js/navigation.js"></script>
+    <script src="../assets/js/toc.js"></script>
+    <script src="../assets/js/search.js"></script>
+</body>
+</html>
