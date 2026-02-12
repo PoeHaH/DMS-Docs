@@ -494,7 +494,7 @@
     },
     {
         "title": "Integrations & Compatibility",
-        "url": "/integrations-compatibility/",
+        "url": "/integrations-and-compatibility/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility"
@@ -503,7 +503,7 @@
     },
     {
         "title": "Supported Hosting Platforms",
-        "url": "/integrations-compatibility/supported-hosting-platforms/",
+        "url": "/integrations-and-compatibility/supported-hosting-platforms/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
@@ -517,7 +517,7 @@
     },
     {
         "title": "How do I create a Domain Pointer in DirectAdmin",
-        "url": "/integrations-compatibility/supported-hosting-platforms/how-do-i-create-a-domain-pointer-in-directadmin/",
+        "url": "/integrations-and-compatibility/supported-hosting-platforms/how-do-i-create-a-domain-pointer-in-directadmin/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
@@ -528,7 +528,7 @@
     },
     {
         "title": "How do I set up a Domain Alias with VULTR hosting",
-        "url": "/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-vultr-hosting/",
+        "url": "/integrations-and-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-vultr-hosting/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
@@ -539,7 +539,7 @@
     },
     {
         "title": "How do I set up a Domain Alias with cPanel",
-        "url": "/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-cpanel/",
+        "url": "/integrations-and-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-cpanel/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
@@ -550,7 +550,7 @@
     },
     {
         "title": "How do I set up a domain Alias with Plesk",
-        "url": "/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-plesk/",
+        "url": "/integrations-and-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-plesk/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
@@ -561,7 +561,7 @@
     },
     {
         "title": "WordPress Plugins",
-        "url": "/integrations-compatibility/wordpress-plugins/",
+        "url": "/integrations-and-compatibility/wordpress-plugins/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
@@ -571,7 +571,7 @@
     },
     {
         "title": "Borlabs Cookie",
-        "url": "/integrations-compatibility/wordpress-plugins/borlabs-cookie/",
+        "url": "/integrations-and-compatibility/wordpress-plugins/borlabs-cookie/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
@@ -582,7 +582,7 @@
     },
     {
         "title": "Multiple Domain Mapping",
-        "url": "/integrations-compatibility/wordpress-plugins/multiple-domain-mapping/",
+        "url": "/integrations-and-compatibility/wordpress-plugins/multiple-domain-mapping/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
@@ -593,7 +593,7 @@
     },
     {
         "title": "PolyLang",
-        "url": "/integrations-compatibility/wordpress-plugins/polylang/",
+        "url": "/integrations-and-compatibility/wordpress-plugins/polylang/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
@@ -604,7 +604,7 @@
     },
     {
         "title": "W3 Total Cache",
-        "url": "/integrations-compatibility/wordpress-plugins/w3-total-cache/",
+        "url": "/integrations-and-compatibility/wordpress-plugins/w3-total-cache/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
@@ -615,7 +615,7 @@
     },
     {
         "title": "WP Rocket",
-        "url": "/integrations-compatibility/wordpress-plugins/wp-rocket/",
+        "url": "/integrations-and-compatibility/wordpress-plugins/wp-rocket/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
@@ -626,7 +626,7 @@
     },
     {
         "title": "WPML",
-        "url": "/integrations-compatibility/wordpress-plugins/wpml/",
+        "url": "/integrations-and-compatibility/wordpress-plugins/wpml/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
@@ -637,7 +637,7 @@
     },
     {
         "title": "Yoast SEO",
-        "url": "/integrations-compatibility/wordpress-plugins/yoast-seo/",
+        "url": "/integrations-and-compatibility/wordpress-plugins/yoast-seo/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
