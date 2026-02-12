@@ -326,12 +326,11 @@ body:has(.sidebar-right .toc:empty) .content {
 }
 
 .markdown-content h2 {
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 600;
     margin-top: 48px;
     margin-bottom: 16px;
     padding-bottom: 8px;
-    border-bottom: 1px solid var(--border-color);
 }
 
 .markdown-content h3 {
@@ -358,6 +357,7 @@ body:has(.sidebar-right .toc:empty) .content {
     display: flex;
     align-items: flex-start;
     gap: 12px;
+    margin-bottom: 16px;
 }
 
 .info-block .info-block-content {

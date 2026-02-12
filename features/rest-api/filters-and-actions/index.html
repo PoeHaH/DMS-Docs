@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filters and Actions - Domain Mapping System Docs</title>
+    <meta name="description" content="Filters and Actions">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    <div class="docs-container">
+        <!-- Top Bar -->
+        <header class="top-bar">
+            <div class="logo">
+                <a href="/">Domain Mapping System Docs</a>
+            </div>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search documentation..." autocomplete="off">
+                <div id="search-results" class="search-results"></div>
+            </div>
+        </header>
+
+        <!-- Main Layout -->
+        <div class="main-layout">
+            <!-- Left Sidebar: Navigation -->
+            <aside class="sidebar sidebar-left">
+                <nav class="navigation" id="navigation">
+                    <ul class="nav-tree"><li class="nav-item" data-depth="1"><a href="/overview-how-to-map-domains/">Overview How to Map Domains</a></li><li class="nav-item" data-depth="1"><a href="/video-guides/">Video Guides</a></li><li class="nav-item" data-depth="1"><a href="/troubleshooting-guide/">Troubleshooting Guide</a></li><li class="nav-item has-children toggle-only" data-depth="1"><span class="nav-toggle"></span><a href="/requirements/">Requirements</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/requirements/configuring-dns-records/">Configuring DNS Records</a></li><li class="nav-item has-children" data-depth="2"><span class="nav-toggle"></span><a href="/requirements/server-configuration/">Server Configuration</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/requirements/server-configuration/localhost-configuration/">Localhost Configuration</a></li></ul></li></ul></li><li class="nav-item has-children toggle-only expanded" data-depth="1"><span class="nav-toggle"></span><a href="/features/">Features</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/features/domain-mapping/">Domain Mapping</a></li><li class="nav-item" data-depth="2"><a href="/features/creating-microsites-multisite-alternative/">Creating Microsites - Multisite Alternative</a></li><li class="nav-item" data-depth="2"><a href="/features/global-domain-mapping/">Global Domain Mapping</a></li><li class="nav-item" data-depth="2"><a href="/features/global-archive-category-mapping/">Global Archive Category Mapping</a></li><li class="nav-item" data-depth="2"><a href="/features/global-parent-page-mapping/">Global Parent Page Mapping</a></li><li class="nav-item" data-depth="2"><a href="/features/global-product-mapping-for-woocommerce/">Global Product Mapping for WooCommerce</a></li><li class="nav-item" data-depth="2"><a href="/features/subdomain-mapping/">Subdomain Mapping</a></li><li class="nav-item" data-depth="2"><a href="/features/subdirectory-mapping/">Subdirectory Mapping</a></li><li class="nav-item" data-depth="2"><a href="/features/redirect-site-visitors-to-mapped-domains/">Redirect Site Visitors to Mapped Domains</a></li><li class="nav-item" data-depth="2"><a href="/features/url-rewriting/">URL Rewriting</a></li><li class="nav-item" data-depth="2"><a href="/features/query-string-parameters/">Query String Parameters</a></li><li class="nav-item" data-depth="2"><a href="/features/language-per-domain/">Language per Domain</a></li><li class="nav-item" data-depth="2"><a href="/features/favicon-per-domain/">Favicon per Domain</a></li><li class="nav-item" data-depth="2"><a href="/features/multisite-integration/">Multisite Integration</a></li><li class="nav-item" data-depth="2"><a href="/features/custom-head-and-body-code-per-domain/">Custom head and body Code per Domain</a></li><li class="nav-item" data-depth="2"><a href="/features/menu-per-domain/">Menu per Domain</a></li><li class="nav-item" data-depth="2"><a href="/features/404-handling/">404 Handling</a></li><li class="nav-item" data-depth="2"><a href="/features/alias-domain-authentication/">Alias Domain Authentication</a></li><li class="nav-item" data-depth="2"><a href="/features/subdomain-authentication/">Subdomain Authentication</a></li><li class="nav-item has-children toggle-only expanded" data-depth="2"><span class="nav-toggle"></span><a href="/features/rest-api/">REST API</a><ul class="nav-children"><li class="nav-item active expanded" data-depth="3"><a href="/features/rest-api/filters-and-actions/">Filters and Actions</a></li></ul></li></ul></li><li class="nav-item has-children toggle-only" data-depth="1"><span class="nav-toggle"></span><a href="/integrations-compatibility/">Integrations &amp; Compatibility</a><ul class="nav-children"><li class="nav-item has-children toggle-only" data-depth="2"><span class="nav-toggle"></span><a href="/integrations-compatibility/wordpress-plugins/">WordPress Plugins</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/wordpress-plugins/yoast-seo/">Yoast SEO</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/wordpress-plugins/polylang/">PolyLang</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/wordpress-plugins/w3-total-cache/">W3 Total Cache</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/wordpress-plugins/wp-rocket/">WP Rocket</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/wordpress-plugins/multiple-domain-mapping/">Multiple Domain Mapping</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/wordpress-plugins/wpml/">WPML</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/wordpress-plugins/borlabs-cookie/">Borlabs Cookie</a></li></ul></li><li class="nav-item has-children" data-depth="2"><span class="nav-toggle"></span><a href="/integrations-compatibility/supported-hosting-platforms/">Supported Hosting Platforms</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-cpanel/">How do I set up a Domain Alias with cPanel</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-vultr-hosting/">How do I set up a Domain Alias with VULTR hosting</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-plesk/">How do I set up a domain Alias with Plesk</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/supported-hosting-platforms/how-do-i-create-a-domain-pointer-in-directadmin/">How do I create a Domain Pointer in DirectAdmin</a></li></ul></li></ul></li><li class="nav-item has-children toggle-only" data-depth="1"><span class="nav-toggle"></span><a href="/common-issues/">Common Issues</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/common-issues/caching/">Caching</a></li><li class="nav-item" data-depth="2"><a href="/common-issues/ssl-for-multiple-domains/">SSL for Multiple Domains</a></li><li class="nav-item" data-depth="2"><a href="/common-issues/cors-policy/">CORS Policy</a></li><li class="nav-item" data-depth="2"><a href="/common-issues/known-plugin-conflicts/">Known Plugin Conflicts</a></li></ul></li><li class="nav-item has-children toggle-only" data-depth="1"><span class="nav-toggle"></span><a href="/faqs/">FAQs</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/faqs/what-are-dns-records/">What are DNS Records</a></li><li class="nav-item" data-depth="2"><a href="/faqs/what-is-a-domain-alias/">What is a domain Alias</a></li><li class="nav-item" data-depth="2"><a href="/faqs/why-isn-t-my-domain-secure/">Why isn&#039;t my domain secure</a></li><li class="nav-item" data-depth="2"><a href="/faqs/is-the-htaccess-file-modified/">Is the htaccess file modified</a></li><li class="nav-item" data-depth="2"><a href="/faqs/why-is-a-directory-created-in-the-mu-plugins-folde/">Why is a directory created in the mu-plugins folde</a></li></ul></li><li class="nav-item has-children toggle-only" data-depth="1"><span class="nav-toggle"></span><a href="/misc/">Misc</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/misc/pagination/">Pagination</a></li></ul></li><li class="nav-item" data-depth="1"><a href="/changelog/">Changelog</a></li></ul>
+                </nav>
+            </aside>
+
+            <!-- Content Area -->
+            <main class="content">
+                <article class="markdown-content">
+                    <h1 id="filters-and-actions">Filters and Actions</h1>
+<p>This section describes all the available filters and actions in the Domain Mapping System plugin. These can be used to modify the behavior of the system and integrate with other plugins.</p>
+<h3 id="filters"><strong>Filters</strong></h3>
+<h3 id="1-dms-object-mapper"><strong>1. <code>dms_object_mapper</code></strong></h3>
+<ul>
+<li>Filters the Mapper class to set or unset necessary parameters in the main <code>WP_Query</code>.</li>
+</ul>
+<h3 id="2-dms-available-content-types"><strong>2. <code>dms_available_content_types</code></strong></h3>
+<ul>
+<li>Filters the available content types.</li>
+</ul>
+<h3 id="3-dms-is-unmapped-scenario"><strong>3. <code>dms_is_unmapped_scenario</code></strong></h3>
+<ul>
+<li>Determines if the current scenario is unmapped.</li>
+</ul>
+<h3 id="4-dms-validate-object-id"><strong>4. <code>dms_validate_object_id</code></strong></h3>
+<ul>
+<li>Fired when creating a new mapping via REST API. Filters whether the object ID needs verification.</li>
+</ul>
+<h3 id="5-dms-allowed-object-types"><strong>5. <code>dms_allowed_object_types</code></strong></h3>
+<ul>
+<li>Fired during the creation of new mapping via REST API. Filters which object types require verification.</li>
+</ul>
+<h3 id="6-dms-mapping-value-name"><strong>6. <code>dms_mapping_value_name</code></strong></h3>
+<ul>
+<li>Filters the displayed name of the saved mapping value in a selection box.</li>
+</ul>
+<h3 id="7-dms-mapping-value-link"><strong>7. <code>dms_mapping_value_link</code></strong></h3>
+<ul>
+<li>Filters the original link of the saved mapping value displayed in a selection box.</li>
+</ul>
+<h3 id="8-dms-mapping-value-mapped-link"><strong>8. <code>dms_mapping_value_mapped_link</code></strong></h3>
+<ul>
+<li>Filters the mapped link of the saved mapping value shown in a selection box.</li>
+</ul>
+<h3 id="9-dms-wp-object-value-title"><strong>9. <code>dms_wp_object_value_title</code></strong></h3>
+<ul>
+<li>Filters the title of the unselected mapping value displayed in a selection box.</li>
+</ul>
+<h3 id="10-dms-wp-object-value-link"><strong>10. <code>dms_wp_object_value_link</code></strong></h3>
+<ul>
+<li>Filters the link of the unselected mapping value shown in a selection box.</li>
+</ul>
+<h3 id="11-dms-wp-object-repository"><strong>11. <code>dms_wp_object_repository</code></strong></h3>
+<ul>
+<li>Filters the repository source used to fetch mapping value objects.</li>
+</ul>
+<h3 id="12-dms-global-domain-mapping-path-info"><strong>12. <code>dms_global_domain_mapping_path_info</code></strong></h3>
+<ul>
+<li>Filters the value of <code>$_SERVER['path_info']</code> during global domain mapping.</li>
+</ul>
+<h3 id="13-dms-request-params-path"><strong>13. <code>dms_request_params_path</code></strong></h3>
+<ul>
+<li>Filters the current request path.</li>
+</ul>
+<h3 id="14-dms-mapping-value"><strong>14. <code>dms_mapping_value</code></strong></h3>
+<ul>
+<li>Filters the current mapping value that should be mapped.</li>
+</ul>
+<h3 id="15-dms-enable-redirect-for-mapped-pages"><strong>15. <code>dms_enable_redirect_for_mapped_pages</code></strong></h3>
+<ul>
+<li>Determines whether redirection should occur for mapped pages.</li>
+</ul>
+<h3 id="16-dms-mapping-scenarios-list"><strong>16. <code>dms_mapping_scenarios_list</code></strong></h3>
+<ul>
+<li>Filters the list of possible mapping scenarios.</li>
+</ul>
+<h3 id="17-dms-force-redirection-uri"><strong>17. <code>dms_force_redirection_uri</code></strong></h3>
+<ul>
+<li>Filters the URI used for forced redirection.</li>
+</ul>
+<h3 id="18-dms-trp-prevent-redirection"><strong>18. <code>dms_trp_prevent_redirection</code></strong></h3>
+<ul>
+<li>Determines if redirection, managed by TranslatePress, should be prevented.</li>
+</ul>
+<h3 id="19-dms-wc-account-unmapped-scenario"><strong>19. <code>dms_wc_account_unmapped_scenario</code></strong></h3>
+<ul>
+<li>Determines if the current WooCommerce account page should be treated as an unmapped scenario.</li>
+</ul>
+<h3 id="20-dms-available-languages"><strong>20. <code>dms_available_languages</code></strong></h3>
+<ul>
+<li>Filters the values shown in the language dropdown.</li>
+</ul>
+<h3 id="21-dms-allowed-object-groups"><strong>21. <code>dms_allowed_object_groups</code></strong></h3>
+<ul>
+<li>Filters allowed object groups (such as Posts, Pages, Product Categories, etc.).</li>
+</ul>
+<hr />
+<h3 id="actions"><strong>Actions</strong></h3>
+<h3 id="1-dms-rewrite-uris"><strong>1. <code>dms_rewrite_uris</code></strong></h3>
+<ul>
+<li>Fires after applying rewrite filters, useful for integration with plugins like <strong>Divi</strong>.</li>
+</ul>
+                </article>
+            </main>
+
+            <!-- Right Sidebar: Table of Contents -->
+            <aside class="sidebar sidebar-right">
+                <nav class="toc" id="toc">
+                    <h4>On This Page</h4><ul class="toc-list"><ul class="toc-sublist"><li class="toc-item toc-h3"><a href="#filters">Filters</a></li><li class="toc-item toc-h3"><a href="#1-dms-object-mapper">1. dms_object_mapper</a></li><li class="toc-item toc-h3"><a href="#2-dms-available-content-types">2. dms_available_content_types</a></li><li class="toc-item toc-h3"><a href="#3-dms-is-unmapped-scenario">3. dms_is_unmapped_scenario</a></li><li class="toc-item toc-h3"><a href="#4-dms-validate-object-id">4. dms_validate_object_id</a></li><li class="toc-item toc-h3"><a href="#5-dms-allowed-object-types">5. dms_allowed_object_types</a></li><li class="toc-item toc-h3"><a href="#6-dms-mapping-value-name">6. dms_mapping_value_name</a></li><li class="toc-item toc-h3"><a href="#7-dms-mapping-value-link">7. dms_mapping_value_link</a></li><li class="toc-item toc-h3"><a href="#8-dms-mapping-value-mapped-link">8. dms_mapping_value_mapped_link</a></li><li class="toc-item toc-h3"><a href="#9-dms-wp-object-value-title">9. dms_wp_object_value_title</a></li><li class="toc-item toc-h3"><a href="#10-dms-wp-object-value-link">10. dms_wp_object_value_link</a></li><li class="toc-item toc-h3"><a href="#11-dms-wp-object-repository">11. dms_wp_object_repository</a></li><li class="toc-item toc-h3"><a href="#12-dms-global-domain-mapping-path-info">12. dms_global_domain_mapping_path_info</a></li><li class="toc-item toc-h3"><a href="#13-dms-request-params-path">13. dms_request_params_path</a></li><li class="toc-item toc-h3"><a href="#14-dms-mapping-value">14. dms_mapping_value</a></li><li class="toc-item toc-h3"><a href="#15-dms-enable-redirect-for-mapped-pages">15. dms_enable_redirect_for_mapped_pages</a></li><li class="toc-item toc-h3"><a href="#16-dms-mapping-scenarios-list">16. dms_mapping_scenarios_list</a></li><li class="toc-item toc-h3"><a href="#17-dms-force-redirection-uri">17. dms_force_redirection_uri</a></li><li class="toc-item toc-h3"><a href="#18-dms-trp-prevent-redirection">18. dms_trp_prevent_redirection</a></li><li class="toc-item toc-h3"><a href="#19-dms-wc-account-unmapped-scenario">19. dms_wc_account_unmapped_scenario</a></li><li class="toc-item toc-h3"><a href="#20-dms-available-languages">20. dms_available_languages</a></li><li class="toc-item toc-h3"><a href="#21-dms-allowed-object-groups">21. dms_allowed_object_groups</a></li><li class="toc-item toc-h3"><a href="#actions">Actions</a></li><li class="toc-item toc-h3"><a href="#1-dms-rewrite-uris">1. dms_rewrite_uris</a></li></ul></li></ul>
+                </nav>
+            </aside>
+        </div>
+    </div>
+
+    <script>
+        // Expose base path, assets path, and config for JS modules
+        window.DOCS_CONFIG = Object.assign({
+            basePath: '',
+            assetsPath: '/assets/',
+            currentUrl: '/features/rest-api/filters-and-actions/'
+        }, {"searchMinChars":3,"searchMaxResults":10,"searchScoring":{"title_match":100,"exact_title_match_bonus":50,"title_starts_with_bonus":25,"heading_match":10},"scrollOffset":100,"scrollAnimationDelay":1000,"hashScrollDelay":100,"navScrollDelay":100,"mobileBreakpoint":768,"navStorageKey":"docs_nav_state"});
+    </script>
+    <script src="/assets/js/navigation.js"></script>
+    <script src="/assets/js/toc.js"></script>
+    <script src="/assets/js/search.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Microsites - Multisite Alternative - Domain Mapping System Docs</title>
+    <meta name="description" content="Creating Microsites - Multisite Alternative">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    <div class="docs-container">
+        <!-- Top Bar -->
+        <header class="top-bar">
+            <div class="logo">
+                <a href="/">Domain Mapping System Docs</a>
+            </div>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search documentation..." autocomplete="off">
+                <div id="search-results" class="search-results"></div>
+            </div>
+        </header>
+
+        <!-- Main Layout -->
+        <div class="main-layout">
+            <!-- Left Sidebar: Navigation -->
+            <aside class="sidebar sidebar-left">
+                <nav class="navigation" id="navigation">
+                    <ul class="nav-tree"><li class="nav-item" data-depth="1"><a href="/overview-how-to-map-domains/">Overview How to Map Domains</a></li><li class="nav-item" data-depth="1"><a href="/video-guides/">Video Guides</a></li><li class="nav-item" data-depth="1"><a href="/troubleshooting-guide/">Troubleshooting Guide</a></li><li class="nav-item has-children toggle-only" data-depth="1"><span class="nav-toggle"></span><a href="/requirements/">Requirements</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/requirements/configuring-dns-records/">Configuring DNS Records</a></li><li class="nav-item has-children" data-depth="2"><span class="nav-toggle"></span><a href="/requirements/server-configuration/">Server Configuration</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/requirements/server-configuration/localhost-configuration/">Localhost Configuration</a></li></ul></li></ul></li><li class="nav-item has-children toggle-only expanded" data-depth="1"><span class="nav-toggle"></span><a href="/features/">Features</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/features/domain-mapping/">Domain Mapping</a></li><li class="nav-item active expanded" data-depth="2"><a href="/features/creating-microsites-multisite-alternative/">Creating Microsites - Multisite Alternative</a></li><li class="nav-item" data-depth="2"><a href="/features/global-domain-mapping/">Global Domain Mapping</a></li><li class="nav-item" data-depth="2"><a href="/features/global-archive-category-mapping/">Global Archive Category Mapping</a></li><li class="nav-item" data-depth="2"><a href="/features/global-parent-page-mapping/">Global Parent Page Mapping</a></li><li class="nav-item" data-depth="2"><a href="/features/global-product-mapping-for-woocommerce/">Global Product Mapping for WooCommerce</a></li><li class="nav-item" data-depth="2"><a href="/features/subdomain-mapping/">Subdomain Mapping</a></li><li class="nav-item" data-depth="2"><a href="/features/subdirectory-mapping/">Subdirectory Mapping</a></li><li class="nav-item" data-depth="2"><a href="/features/redirect-site-visitors-to-mapped-domains/">Redirect Site Visitors to Mapped Domains</a></li><li class="nav-item" data-depth="2"><a href="/features/url-rewriting/">URL Rewriting</a></li><li class="nav-item" data-depth="2"><a href="/features/query-string-parameters/">Query String Parameters</a></li><li class="nav-item" data-depth="2"><a href="/features/language-per-domain/">Language per Domain</a></li><li class="nav-item" data-depth="2"><a href="/features/favicon-per-domain/">Favicon per Domain</a></li><li class="nav-item" data-depth="2"><a href="/features/multisite-integration/">Multisite Integration</a></li><li class="nav-item" data-depth="2"><a href="/features/custom-head-and-body-code-per-domain/">Custom head and body Code per Domain</a></li><li class="nav-item" data-depth="2"><a href="/features/menu-per-domain/">Menu per Domain</a></li><li class="nav-item" data-depth="2"><a href="/features/404-handling/">404 Handling</a></li><li class="nav-item" data-depth="2"><a href="/features/alias-domain-authentication/">Alias Domain Authentication</a></li><li class="nav-item" data-depth="2"><a href="/features/subdomain-authentication/">Subdomain Authentication</a></li><li class="nav-item has-children toggle-only" data-depth="2"><span class="nav-toggle"></span><a href="/features/rest-api/">REST API</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/features/rest-api/filters-and-actions/">Filters and Actions</a></li></ul></li></ul></li><li class="nav-item has-children toggle-only" data-depth="1"><span class="nav-toggle"></span><a href="/integrations-compatibility/">Integrations &amp; Compatibility</a><ul class="nav-children"><li class="nav-item has-children toggle-only" data-depth="2"><span class="nav-toggle"></span><a href="/integrations-compatibility/wordpress-plugins/">WordPress Plugins</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/wordpress-plugins/yoast-seo/">Yoast SEO</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/wordpress-plugins/polylang/">PolyLang</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/wordpress-plugins/w3-total-cache/">W3 Total Cache</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/wordpress-plugins/wp-rocket/">WP Rocket</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/wordpress-plugins/multiple-domain-mapping/">Multiple Domain Mapping</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/wordpress-plugins/wpml/">WPML</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/wordpress-plugins/borlabs-cookie/">Borlabs Cookie</a></li></ul></li><li class="nav-item has-children" data-depth="2"><span class="nav-toggle"></span><a href="/integrations-compatibility/supported-hosting-platforms/">Supported Hosting Platforms</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-cpanel/">How do I set up a Domain Alias with cPanel</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-vultr-hosting/">How do I set up a Domain Alias with VULTR hosting</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-plesk/">How do I set up a domain Alias with Plesk</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/supported-hosting-platforms/how-do-i-create-a-domain-pointer-in-directadmin/">How do I create a Domain Pointer in DirectAdmin</a></li></ul></li></ul></li><li class="nav-item has-children toggle-only" data-depth="1"><span class="nav-toggle"></span><a href="/common-issues/">Common Issues</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/common-issues/caching/">Caching</a></li><li class="nav-item" data-depth="2"><a href="/common-issues/ssl-for-multiple-domains/">SSL for Multiple Domains</a></li><li class="nav-item" data-depth="2"><a href="/common-issues/cors-policy/">CORS Policy</a></li><li class="nav-item" data-depth="2"><a href="/common-issues/known-plugin-conflicts/">Known Plugin Conflicts</a></li></ul></li><li class="nav-item has-children toggle-only" data-depth="1"><span class="nav-toggle"></span><a href="/faqs/">FAQs</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/faqs/what-are-dns-records/">What are DNS Records</a></li><li class="nav-item" data-depth="2"><a href="/faqs/what-is-a-domain-alias/">What is a domain Alias</a></li><li class="nav-item" data-depth="2"><a href="/faqs/why-isn-t-my-domain-secure/">Why isn&#039;t my domain secure</a></li><li class="nav-item" data-depth="2"><a href="/faqs/is-the-htaccess-file-modified/">Is the htaccess file modified</a></li><li class="nav-item" data-depth="2"><a href="/faqs/why-is-a-directory-created-in-the-mu-plugins-folde/">Why is a directory created in the mu-plugins folde</a></li></ul></li><li class="nav-item has-children toggle-only" data-depth="1"><span class="nav-toggle"></span><a href="/misc/">Misc</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/misc/pagination/">Pagination</a></li></ul></li><li class="nav-item" data-depth="1"><a href="/changelog/">Changelog</a></li></ul>
+                </nav>
+            </aside>
+
+            <!-- Content Area -->
+            <main class="content">
+                <article class="markdown-content">
+                    <h1 id="creating-microsites-multisite-alternative">Creating Microsites - Multisite Alternative</h1>
+<p>Create subsites on your WordPress website by mapping multiple posts or pages to a single domain. Excellent multisite alternative.</p>
+<p>You can now create &quot;Microsites&quot; for your WordPress website!</p>
+<div class="youtube-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/6jrP8BVxlpQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<p>After setting up Domain Mapping System and mapping a domain, add multiple posts to your mapped domain:</p>
+<p><img src="/assets/images/f85acdc8b158a6b453461f279ec66b9c.png" alt="" /></p>
+<p>Once you've mapped the posts properly, be sure to click &quot;Save&quot; at the bottom of the plugin settings.</p>
+<h2 id="microsite-homepage">Microsite Homepage</h2>
+<p>Just like any standalone website, your alias domain needs a homepage. We call this the Microsite Homepage, and it can be set up by simply clicking the Home icon next to any individual mapping.</p>
+<p><img src="/assets/images/9a93437d8f49fb478ea77db4677270c7.png" alt="" /></p>
+<h3 id="latest-posts-as-homepage-in-general-reading-settings"><strong>Latest Posts as Homepage in General &gt; Reading Settings</strong></h3>
+<p>When you create a WordPress website, you have the option of setting a homepage in your WordPress website General &gt; Reading settings.</p>
+<p>If you do not have a page set in the General Reading Settings and you are using the Latest Posts option for the homepage, we've added the the static mapping option of Latest Posts when that settings is detected on your site:</p>
+<p><img src="/assets/images/8fe896537c02ca155a6bfb51f3a2c7e3.png" alt="" /></p>
+<p>When using that mechanism, WordPress strips the slug from any page set as the homepage.</p>
+<p>For example, if you have a page set up and the slug is <code>https://your-domain.com/homepage/</code> and the homepage is set up as the actual homepage in the WordPress General &gt; Reading settings, then it will show up as <code>https://your-domain.com/</code> when visiting the site.</p>
+<p>When using Domain Mapping System, the plugin does not automatically map the alias domain to the WordPress Archive page by default. Instead, you must set up a Microsite homepage by using the provided radio button. The effect of the radio button is the same as setting a homepage in WordPress - the slug of that page is removed and becomes the primary page viewed when visiting the alias domain.</p>
+<div class="info-block info-block-info"><div class="info-block-icon"><img src="https://www.notion.so/icons/info-alternate_blue.svg" alt="https://www.notion.so/icons/info-alternate_blue.svg" /></div><div class="info-block-content"><p>Because Domain Mapping System currently requires a Microsite homepage to be configured and the slug is removed from the post/page, any Child posts/pages under a Parent post/page will retain their parent page URL structure. We've resolved this with the <em>Remove Parent Page Slugs</em> checkbnox recently added to the plugin. Please see <a href="/features/global-parent-page-mapping/">Global Parent Page Mapping</a> for details.</p></div></div>
+                </article>
+            </main>
+
+            <!-- Right Sidebar: Table of Contents -->
+            <aside class="sidebar sidebar-right">
+                <nav class="toc" id="toc">
+                    <h4>On This Page</h4><ul class="toc-list"><li class="toc-item toc-h2"><a href="#microsite-homepage">Microsite Homepage</a><ul class="toc-sublist"><li class="toc-item toc-h3"><a href="#latest-posts-as-homepage-in-general-reading-settings">Latest Posts as Homepage in General &amp;gt; Reading Settings</a></li></ul></li></ul>
+                </nav>
+            </aside>
+        </div>
+    </div>
+
+    <script>
+        // Expose base path, assets path, and config for JS modules
+        window.DOCS_CONFIG = Object.assign({
+            basePath: '',
+            assetsPath: '/assets/',
+            currentUrl: '/features/creating-microsites-multisite-alternative/'
+        }, {"searchMinChars":3,"searchMaxResults":10,"searchScoring":{"title_match":100,"exact_title_match_bonus":50,"title_starts_with_bonus":25,"heading_match":10},"scrollOffset":100,"scrollAnimationDelay":1000,"hashScrollDelay":100,"navScrollDelay":100,"mobileBreakpoint":768,"navStorageKey":"docs_nav_state"});
+    </script>
+    <script src="/assets/js/navigation.js"></script>
+    <script src="/assets/js/toc.js"></script>
+    <script src="/assets/js/search.js"></script>
+</body>
+</html>

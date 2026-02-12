@@ -9,6 +9,17 @@
     let searchIndex = [];
     let selectedIndex = -1;
 
+    // Get config values with defaults
+    const config = window.DOCS_CONFIG || {};
+    const SEARCH_MIN_CHARS = config.searchMinChars || 2;
+    const SEARCH_MAX_RESULTS = config.searchMaxResults || 10;
+    const SEARCH_SCORING = config.searchScoring || {
+        title_match: 100,
+        exact_title_match_bonus: 50,
+        title_starts_with_bonus: 25,
+        heading_match: 10
+    };
+
     // Initialize search
     function initSearch() {
         const searchInput = document.getElementById('search-input');
@@ -23,7 +34,7 @@
         searchInput.addEventListener('input', function() {
             const query = this.value.trim();
 
-            if (query.length < 2) {
+            if (query.length < SEARCH_MIN_CHARS) {
                 hideResults();
                 return;
             }
@@ -115,17 +126,17 @@
                 // Calculate relevance score
                 let score = 0;
                 if (titleMatch) {
-                    score += 100;
+                    score += SEARCH_SCORING.title_match;
                     // Bonus for exact match
                     if (page.title.toLowerCase() === lowerQuery) {
-                        score += 50;
+                        score += SEARCH_SCORING.exact_title_match_bonus;
                     }
                     // Bonus for starts with
                     if (page.title.toLowerCase().startsWith(lowerQuery)) {
-                        score += 25;
+                        score += SEARCH_SCORING.title_starts_with_bonus;
                     }
                 }
-                score += headingMatches.length * 10;
+                score += headingMatches.length * SEARCH_SCORING.heading_match;
 
                 return {
                     page,
@@ -135,7 +146,7 @@
             })
             .filter(result => result !== null)
             .sort((a, b) => b.score - a.score)
-            .slice(0, 10); // Show top 10 results
+            .slice(0, SEARCH_MAX_RESULTS);
 
         displayResults(results, query);
     }

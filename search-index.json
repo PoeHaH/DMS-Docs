@@ -13,7 +13,7 @@
     },
     {
         "title": "Changelog",
-        "url": "/domain-mapping-system-docs/changelog/",
+        "url": "/changelog/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Changelog"
@@ -97,7 +97,7 @@
     },
     {
         "title": "Common Issues",
-        "url": "/domain-mapping-system-docs/common-issues/",
+        "url": "/common-issues/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Common Issues"
@@ -106,7 +106,7 @@
     },
     {
         "title": "CORS Policy",
-        "url": "/domain-mapping-system-docs/common-issues/cors-policy/",
+        "url": "/common-issues/cors-policy/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Common Issues",
@@ -119,7 +119,7 @@
     },
     {
         "title": "Caching",
-        "url": "/domain-mapping-system-docs/common-issues/caching/",
+        "url": "/common-issues/caching/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Common Issues",
@@ -132,7 +132,7 @@
     },
     {
         "title": "Known Plugin Conflicts",
-        "url": "/domain-mapping-system-docs/common-issues/known-plugin-conflicts/",
+        "url": "/common-issues/known-plugin-conflicts/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Common Issues",
@@ -146,7 +146,7 @@
     },
     {
         "title": "SSL for Multiple Domains",
-        "url": "/domain-mapping-system-docs/common-issues/ssl-for-multiple-domains/",
+        "url": "/common-issues/ssl-for-multiple-domains/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Common Issues",
@@ -156,7 +156,7 @@
     },
     {
         "title": "FAQs",
-        "url": "/domain-mapping-system-docs/faqs/",
+        "url": "/faqs/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "FAQs"
@@ -165,7 +165,7 @@
     },
     {
         "title": "Is the htaccess file modified",
-        "url": "/domain-mapping-system-docs/faqs/is-the-htaccess-file-modified/",
+        "url": "/faqs/is-the-htaccess-file-modified/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "FAQs",
@@ -175,7 +175,7 @@
     },
     {
         "title": "What are DNS Records",
-        "url": "/domain-mapping-system-docs/faqs/what-are-dns-records/",
+        "url": "/faqs/what-are-dns-records/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "FAQs",
@@ -185,7 +185,7 @@
     },
     {
         "title": "What is a domain Alias",
-        "url": "/domain-mapping-system-docs/faqs/what-is-a-domain-alias/",
+        "url": "/faqs/what-is-a-domain-alias/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "FAQs",
@@ -199,7 +199,7 @@
     },
     {
         "title": "Why is a directory created in the mu-plugins folde",
-        "url": "/domain-mapping-system-docs/faqs/why-is-a-directory-created-in-the-mu-plugins-folde/",
+        "url": "/faqs/why-is-a-directory-created-in-the-mu-plugins-folde/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "FAQs",
@@ -209,7 +209,7 @@
     },
     {
         "title": "Why isn't my domain secure",
-        "url": "/domain-mapping-system-docs/faqs/why-isn-t-my-domain-secure/",
+        "url": "/faqs/why-isn-t-my-domain-secure/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "FAQs",
@@ -219,7 +219,7 @@
     },
     {
         "title": "Features",
-        "url": "/domain-mapping-system-docs/features/",
+        "url": "/features/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Features"
@@ -228,7 +228,7 @@
     },
     {
         "title": "404 Handling",
-        "url": "/domain-mapping-system-docs/features/404-handling/",
+        "url": "/features/404-handling/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Features",
@@ -238,7 +238,7 @@
     },
     {
         "title": "Alias Domain Authentication",
-        "url": "/domain-mapping-system-docs/features/alias-domain-authentication/",
+        "url": "/features/alias-domain-authentication/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Features",
@@ -251,19 +251,20 @@
     },
     {
         "title": "Creating Microsites - Multisite Alternative",
-        "url": "/domain-mapping-system-docs/features/creating-microsites-multisite-alternative/",
+        "url": "/features/creating-microsites-multisite-alternative/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Features",
             "Creating Microsites - Multisite Alternative"
         ],
         "headings": [
-            "Microsite Homepage"
+            "Microsite Homepage",
+            "Latest Posts as Homepage in General &gt; Reading Settings"
         ]
     },
     {
         "title": "Custom head and body Code per Domain",
-        "url": "/domain-mapping-system-docs/features/custom-head-and-body-code-per-domain/",
+        "url": "/features/custom-head-and-body-code-per-domain/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Features",
@@ -273,7 +274,7 @@
     },
     {
         "title": "Domain Mapping",
-        "url": "/domain-mapping-system-docs/features/domain-mapping/",
+        "url": "/features/domain-mapping/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Features",
@@ -283,7 +284,7 @@
     },
     {
         "title": "Favicon per Domain",
-        "url": "/domain-mapping-system-docs/features/favicon-per-domain/",
+        "url": "/features/favicon-per-domain/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Features",
@@ -293,7 +294,7 @@
     },
     {
         "title": "Global Archive Category Mapping",
-        "url": "/domain-mapping-system-docs/features/global-archive-category-mapping/",
+        "url": "/features/global-archive-category-mapping/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Features",
@@ -303,7 +304,7 @@
     },
     {
         "title": "Global Domain Mapping",
-        "url": "/domain-mapping-system-docs/features/global-domain-mapping/",
+        "url": "/features/global-domain-mapping/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Features",
@@ -316,7 +317,7 @@
     },
     {
         "title": "Global Parent Page Mapping",
-        "url": "/domain-mapping-system-docs/features/global-parent-page-mapping/",
+        "url": "/features/global-parent-page-mapping/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Features",
@@ -326,7 +327,7 @@
     },
     {
         "title": "Global Product Mapping for WooCommerce",
-        "url": "/domain-mapping-system-docs/features/global-product-mapping-for-woocommerce/",
+        "url": "/features/global-product-mapping-for-woocommerce/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Features",
@@ -336,7 +337,7 @@
     },
     {
         "title": "Language per Domain",
-        "url": "/domain-mapping-system-docs/features/language-per-domain/",
+        "url": "/features/language-per-domain/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Features",
@@ -346,7 +347,7 @@
     },
     {
         "title": "Menu per Domain",
-        "url": "/domain-mapping-system-docs/features/menu-per-domain/",
+        "url": "/features/menu-per-domain/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Features",
@@ -356,7 +357,7 @@
     },
     {
         "title": "Multisite Integration",
-        "url": "/domain-mapping-system-docs/features/multisite-integration/",
+        "url": "/features/multisite-integration/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Features",
@@ -370,7 +371,7 @@
     },
     {
         "title": "Query String Parameters",
-        "url": "/domain-mapping-system-docs/features/query-string-parameters/",
+        "url": "/features/query-string-parameters/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Features",
@@ -380,7 +381,7 @@
     },
     {
         "title": "REST API",
-        "url": "/domain-mapping-system-docs/features/rest-api/",
+        "url": "/features/rest-api/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Features",
@@ -391,16 +392,15 @@
             "Rest API Documentation",
             "Base URL",
             "Authentication",
-            "Endpoints",
-            "1. Mappings",
-            "2. Mapping Values",
-            "3. Batch Operations",
+            "Mappings endpoint",
+            "Mapping Values endpoint",
+            "Batch Operations endpoint",
             "Response Format"
         ]
     },
     {
         "title": "Filters and Actions",
-        "url": "/domain-mapping-system-docs/features/rest-api/filters-and-actions/",
+        "url": "/features/rest-api/filters-and-actions/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Features",
@@ -436,7 +436,7 @@
     },
     {
         "title": "Redirect Site Visitors to Mapped Domains",
-        "url": "/domain-mapping-system-docs/features/redirect-site-visitors-to-mapped-domains/",
+        "url": "/features/redirect-site-visitors-to-mapped-domains/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Features",
@@ -446,7 +446,7 @@
     },
     {
         "title": "Subdirectory Mapping",
-        "url": "/domain-mapping-system-docs/features/subdirectory-mapping/",
+        "url": "/features/subdirectory-mapping/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Features",
@@ -456,7 +456,7 @@
     },
     {
         "title": "Subdomain Authentication",
-        "url": "/domain-mapping-system-docs/features/subdomain-authentication/",
+        "url": "/features/subdomain-authentication/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Features",
@@ -470,7 +470,7 @@
     },
     {
         "title": "Subdomain Mapping",
-        "url": "/domain-mapping-system-docs/features/subdomain-mapping/",
+        "url": "/features/subdomain-mapping/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Features",
@@ -480,7 +480,7 @@
     },
     {
         "title": "URL Rewriting",
-        "url": "/domain-mapping-system-docs/features/url-rewriting/",
+        "url": "/features/url-rewriting/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Features",
@@ -494,7 +494,7 @@
     },
     {
         "title": "Integrations & Compatibility",
-        "url": "/domain-mapping-system-docs/integrations-compatibility/",
+        "url": "/integrations-compatibility/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility"
@@ -503,7 +503,7 @@
     },
     {
         "title": "Supported Hosting Platforms",
-        "url": "/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/",
+        "url": "/integrations-compatibility/supported-hosting-platforms/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
@@ -517,7 +517,7 @@
     },
     {
         "title": "How do I create a Domain Pointer in DirectAdmin",
-        "url": "/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-create-a-domain-pointer-in-directadmin/",
+        "url": "/integrations-compatibility/supported-hosting-platforms/how-do-i-create-a-domain-pointer-in-directadmin/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
@@ -528,7 +528,7 @@
     },
     {
         "title": "How do I set up a Domain Alias with VULTR hosting",
-        "url": "/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-vultr-hosting/",
+        "url": "/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-vultr-hosting/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
@@ -539,7 +539,7 @@
     },
     {
         "title": "How do I set up a Domain Alias with cPanel",
-        "url": "/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-cpanel/",
+        "url": "/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-cpanel/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
@@ -550,7 +550,7 @@
     },
     {
         "title": "How do I set up a domain Alias with Plesk",
-        "url": "/domain-mapping-system-docs/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-plesk/",
+        "url": "/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-plesk/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
@@ -561,7 +561,7 @@
     },
     {
         "title": "WordPress Plugins",
-        "url": "/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/",
+        "url": "/integrations-compatibility/wordpress-plugins/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
@@ -571,7 +571,7 @@
     },
     {
         "title": "Borlabs Cookie",
-        "url": "/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/borlabs-cookie/",
+        "url": "/integrations-compatibility/wordpress-plugins/borlabs-cookie/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
@@ -582,7 +582,7 @@
     },
     {
         "title": "Multiple Domain Mapping",
-        "url": "/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/multiple-domain-mapping/",
+        "url": "/integrations-compatibility/wordpress-plugins/multiple-domain-mapping/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
@@ -593,7 +593,7 @@
     },
     {
         "title": "PolyLang",
-        "url": "/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/polylang/",
+        "url": "/integrations-compatibility/wordpress-plugins/polylang/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
@@ -604,7 +604,7 @@
     },
     {
         "title": "W3 Total Cache",
-        "url": "/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/w3-total-cache/",
+        "url": "/integrations-compatibility/wordpress-plugins/w3-total-cache/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
@@ -615,7 +615,7 @@
     },
     {
         "title": "WP Rocket",
-        "url": "/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/wp-rocket/",
+        "url": "/integrations-compatibility/wordpress-plugins/wp-rocket/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
@@ -626,7 +626,7 @@
     },
     {
         "title": "WPML",
-        "url": "/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/wpml/",
+        "url": "/integrations-compatibility/wordpress-plugins/wpml/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
@@ -637,7 +637,7 @@
     },
     {
         "title": "Yoast SEO",
-        "url": "/domain-mapping-system-docs/integrations-compatibility/wordpress-plugins/yoast-seo/",
+        "url": "/integrations-compatibility/wordpress-plugins/yoast-seo/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Integrations & Compatibility",
@@ -651,7 +651,7 @@
     },
     {
         "title": "Misc",
-        "url": "/domain-mapping-system-docs/misc/",
+        "url": "/misc/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Misc"
@@ -660,7 +660,7 @@
     },
     {
         "title": "Pagination",
-        "url": "/domain-mapping-system-docs/misc/pagination/",
+        "url": "/misc/pagination/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Misc",
@@ -670,7 +670,7 @@
     },
     {
         "title": "Overview How to Map Domains",
-        "url": "/domain-mapping-system-docs/overview-how-to-map-domains/",
+        "url": "/overview-how-to-map-domains/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Overview How to Map Domains"
@@ -685,7 +685,7 @@
     },
     {
         "title": "Requirements",
-        "url": "/domain-mapping-system-docs/requirements/",
+        "url": "/requirements/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Requirements"
@@ -694,7 +694,7 @@
     },
     {
         "title": "Configuring DNS Records",
-        "url": "/domain-mapping-system-docs/requirements/configuring-dns-records/",
+        "url": "/requirements/configuring-dns-records/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Requirements",
@@ -706,7 +706,7 @@
     },
     {
         "title": "Server Configuration",
-        "url": "/domain-mapping-system-docs/requirements/server-configuration/",
+        "url": "/requirements/server-configuration/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Requirements",
@@ -718,7 +718,7 @@
     },
     {
         "title": "Localhost Configuration",
-        "url": "/domain-mapping-system-docs/requirements/server-configuration/localhost-configuration/",
+        "url": "/requirements/server-configuration/localhost-configuration/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Requirements",
@@ -732,7 +732,7 @@
     },
     {
         "title": "Troubleshooting Guide",
-        "url": "/domain-mapping-system-docs/troubleshooting-guide/",
+        "url": "/troubleshooting-guide/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Troubleshooting Guide"
@@ -750,7 +750,7 @@
     },
     {
         "title": "Video Guides",
-        "url": "/domain-mapping-system-docs/video-guides/",
+        "url": "/video-guides/",
         "breadcrumbs": [
             "Domain Mapping System Docs",
             "Video Guides"

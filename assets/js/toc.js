@@ -6,6 +6,12 @@
 (function() {
     'use strict';
 
+    // Get config values with defaults
+    const config = window.DOCS_CONFIG || {};
+    const SCROLL_OFFSET = config.scrollOffset || 100;
+    const SCROLL_ANIMATION_DELAY = config.scrollAnimationDelay || 1000;
+    const HASH_SCROLL_DELAY = config.hashScrollDelay || 100;
+
     let headings = [];
     let tocLinks = [];
     let isScrolling = false;
@@ -43,7 +49,7 @@
                     setTimeout(() => {
                         isScrolling = false;
                         updateActiveTOC();
-                    }, 1000);
+                    }, SCROLL_ANIMATION_DELAY);
                 }
             });
         });
@@ -56,7 +62,7 @@
                 if (targetHeading) {
                     targetHeading.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
-            }, 100);
+            }, HASH_SCROLL_DELAY);
         }
     }
 
@@ -64,7 +70,7 @@
     function updateActiveTOC() {
         if (isScrolling) return;
 
-        const scrollPosition = window.scrollY + 100; // Offset for top bar
+        const scrollPosition = window.scrollY + SCROLL_OFFSET; // Offset for top bar
 
         // Find the current heading
         let currentHeading = null;

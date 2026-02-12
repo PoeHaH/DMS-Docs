@@ -6,7 +6,11 @@
 (function() {
     'use strict';
 
-    const STORAGE_KEY = 'docs_nav_state';
+    // Get config values with defaults
+    const config = window.DOCS_CONFIG || {};
+    const STORAGE_KEY = config.navStorageKey || 'docs_nav_state';
+    const NAV_SCROLL_DELAY = config.navScrollDelay || 100;
+    const MOBILE_BREAKPOINT = config.mobileBreakpoint || 768;
 
     // Initialize navigation
     function initNavigation() {
@@ -47,7 +51,7 @@
         // Scroll active item into view
         setTimeout(() => {
             activeItem.scrollIntoView({ block: 'center', behavior: 'smooth' });
-        }, 100);
+        }, NAV_SCROLL_DELAY);
     }
 
     // Attach click handlers to nav toggles
@@ -67,16 +71,17 @@
             });
         });
 
-        // Also toggle on clicking items with children
+        // Toggle on clicking items with children
         const itemsWithChildren = document.querySelectorAll('.nav-item.has-children > a');
 
         itemsWithChildren.forEach(link => {
             link.addEventListener('click', function(e) {
                 const navItem = this.parentElement;
 
-                // Only toggle if not navigating to the page itself
-                // If the item is already active, allow navigation
-                if (!navItem.classList.contains('active')) {
+                // Toggle-only items never navigate (link-only parent pages)
+                // Active items also just toggle instead of re-navigating
+                if (navItem.classList.contains('toggle-only') || navItem.classList.contains('active')) {
+                    console.log('oooo');
                     e.preventDefault();
                     navItem.classList.toggle('expanded');
                     saveState();
@@ -119,6 +124,12 @@
 
     // Apply saved state to navigation
     function applyState(state) {
+        // First, remove all expanded classes (including those baked into HTML)
+        document.querySelectorAll('.nav-item.expanded').forEach(item => {
+            item.classList.remove('expanded');
+        });
+
+        // Then apply saved expanded state
         Object.keys(state).forEach(href => {
             const link = document.querySelector(`.nav-item a[href="${href}"]`);
             if (link) {
@@ -151,7 +162,7 @@
         });
 
         // Show hamburger on mobile
-        const mediaQuery = window.matchMedia('(max-width: 768px)');
+        const mediaQuery = window.matchMedia('(max-width: ' + MOBILE_BREAKPOINT + 'px)');
         function handleMobileView(e) {
             hamburger.style.display = e.matches ? 'block' : 'none';
         }

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect Site Visitors to Mapped Domains - Domain Mapping System Docs</title>
+    <meta name="description" content="Redirect Site Visitors to Mapped Domains">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    <div class="docs-container">
+        <!-- Top Bar -->
+        <header class="top-bar">
+            <div class="logo">
+                <a href="/">Domain Mapping System Docs</a>
+            </div>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search documentation..." autocomplete="off">
+                <div id="search-results" class="search-results"></div>
+            </div>
+        </header>
+
+        <!-- Main Layout -->
+        <div class="main-layout">
+            <!-- Left Sidebar: Navigation -->
+            <aside class="sidebar sidebar-left">
+                <nav class="navigation" id="navigation">
+                    <ul class="nav-tree"><li class="nav-item" data-depth="1"><a href="/overview-how-to-map-domains/">Overview How to Map Domains</a></li><li class="nav-item" data-depth="1"><a href="/video-guides/">Video Guides</a></li><li class="nav-item" data-depth="1"><a href="/troubleshooting-guide/">Troubleshooting Guide</a></li><li class="nav-item has-children toggle-only" data-depth="1"><span class="nav-toggle"></span><a href="/requirements/">Requirements</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/requirements/configuring-dns-records/">Configuring DNS Records</a></li><li class="nav-item has-children" data-depth="2"><span class="nav-toggle"></span><a href="/requirements/server-configuration/">Server Configuration</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/requirements/server-configuration/localhost-configuration/">Localhost Configuration</a></li></ul></li></ul></li><li class="nav-item has-children toggle-only expanded" data-depth="1"><span class="nav-toggle"></span><a href="/features/">Features</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/features/domain-mapping/">Domain Mapping</a></li><li class="nav-item" data-depth="2"><a href="/features/creating-microsites-multisite-alternative/">Creating Microsites - Multisite Alternative</a></li><li class="nav-item" data-depth="2"><a href="/features/global-domain-mapping/">Global Domain Mapping</a></li><li class="nav-item" data-depth="2"><a href="/features/global-archive-category-mapping/">Global Archive Category Mapping</a></li><li class="nav-item" data-depth="2"><a href="/features/global-parent-page-mapping/">Global Parent Page Mapping</a></li><li class="nav-item" data-depth="2"><a href="/features/global-product-mapping-for-woocommerce/">Global Product Mapping for WooCommerce</a></li><li class="nav-item" data-depth="2"><a href="/features/subdomain-mapping/">Subdomain Mapping</a></li><li class="nav-item" data-depth="2"><a href="/features/subdirectory-mapping/">Subdirectory Mapping</a></li><li class="nav-item active expanded" data-depth="2"><a href="/features/redirect-site-visitors-to-mapped-domains/">Redirect Site Visitors to Mapped Domains</a></li><li class="nav-item" data-depth="2"><a href="/features/url-rewriting/">URL Rewriting</a></li><li class="nav-item" data-depth="2"><a href="/features/query-string-parameters/">Query String Parameters</a></li><li class="nav-item" data-depth="2"><a href="/features/language-per-domain/">Language per Domain</a></li><li class="nav-item" data-depth="2"><a href="/features/favicon-per-domain/">Favicon per Domain</a></li><li class="nav-item" data-depth="2"><a href="/features/multisite-integration/">Multisite Integration</a></li><li class="nav-item" data-depth="2"><a href="/features/custom-head-and-body-code-per-domain/">Custom head and body Code per Domain</a></li><li class="nav-item" data-depth="2"><a href="/features/menu-per-domain/">Menu per Domain</a></li><li class="nav-item" data-depth="2"><a href="/features/404-handling/">404 Handling</a></li><li class="nav-item" data-depth="2"><a href="/features/alias-domain-authentication/">Alias Domain Authentication</a></li><li class="nav-item" data-depth="2"><a href="/features/subdomain-authentication/">Subdomain Authentication</a></li><li class="nav-item has-children toggle-only" data-depth="2"><span class="nav-toggle"></span><a href="/features/rest-api/">REST API</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/features/rest-api/filters-and-actions/">Filters and Actions</a></li></ul></li></ul></li><li class="nav-item has-children toggle-only" data-depth="1"><span class="nav-toggle"></span><a href="/integrations-compatibility/">Integrations &amp; Compatibility</a><ul class="nav-children"><li class="nav-item has-children toggle-only" data-depth="2"><span class="nav-toggle"></span><a href="/integrations-compatibility/wordpress-plugins/">WordPress Plugins</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/wordpress-plugins/yoast-seo/">Yoast SEO</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/wordpress-plugins/polylang/">PolyLang</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/wordpress-plugins/w3-total-cache/">W3 Total Cache</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/wordpress-plugins/wp-rocket/">WP Rocket</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/wordpress-plugins/multiple-domain-mapping/">Multiple Domain Mapping</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/wordpress-plugins/wpml/">WPML</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/wordpress-plugins/borlabs-cookie/">Borlabs Cookie</a></li></ul></li><li class="nav-item has-children" data-depth="2"><span class="nav-toggle"></span><a href="/integrations-compatibility/supported-hosting-platforms/">Supported Hosting Platforms</a><ul class="nav-children"><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-cpanel/">How do I set up a Domain Alias with cPanel</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-vultr-hosting/">How do I set up a Domain Alias with VULTR hosting</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/supported-hosting-platforms/how-do-i-set-up-a-domain-alias-with-plesk/">How do I set up a domain Alias with Plesk</a></li><li class="nav-item" data-depth="3"><a href="/integrations-compatibility/supported-hosting-platforms/how-do-i-create-a-domain-pointer-in-directadmin/">How do I create a Domain Pointer in DirectAdmin</a></li></ul></li></ul></li><li class="nav-item has-children toggle-only" data-depth="1"><span class="nav-toggle"></span><a href="/common-issues/">Common Issues</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/common-issues/caching/">Caching</a></li><li class="nav-item" data-depth="2"><a href="/common-issues/ssl-for-multiple-domains/">SSL for Multiple Domains</a></li><li class="nav-item" data-depth="2"><a href="/common-issues/cors-policy/">CORS Policy</a></li><li class="nav-item" data-depth="2"><a href="/common-issues/known-plugin-conflicts/">Known Plugin Conflicts</a></li></ul></li><li class="nav-item has-children toggle-only" data-depth="1"><span class="nav-toggle"></span><a href="/faqs/">FAQs</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/faqs/what-are-dns-records/">What are DNS Records</a></li><li class="nav-item" data-depth="2"><a href="/faqs/what-is-a-domain-alias/">What is a domain Alias</a></li><li class="nav-item" data-depth="2"><a href="/faqs/why-isn-t-my-domain-secure/">Why isn&#039;t my domain secure</a></li><li class="nav-item" data-depth="2"><a href="/faqs/is-the-htaccess-file-modified/">Is the htaccess file modified</a></li><li class="nav-item" data-depth="2"><a href="/faqs/why-is-a-directory-created-in-the-mu-plugins-folde/">Why is a directory created in the mu-plugins folde</a></li></ul></li><li class="nav-item has-children toggle-only" data-depth="1"><span class="nav-toggle"></span><a href="/misc/">Misc</a><ul class="nav-children"><li class="nav-item" data-depth="2"><a href="/misc/pagination/">Pagination</a></li></ul></li><li class="nav-item" data-depth="1"><a href="/changelog/">Changelog</a></li></ul>
+                </nav>
+            </aside>
+
+            <!-- Content Area -->
+            <main class="content">
+                <article class="markdown-content">
+                    <h1 id="redirect-site-visitors-to-mapped-domains">Redirect Site Visitors to Mapped Domains</h1>
+<p>This page explains how to set redirection to mapped domains, so users can only see the mapped version of a page when using Domain Mapping System.</p>
+<p><img src="/assets/images/c7567c9e6dda75f84b9e99f13868b8d3.png" alt="" /></p>
+<p>When the setting <em>Force site visitors to see only mapped domains of a page</em> is enabled, anytime visitors attempt to navigate to a page that is mapped, they will by default be redirected to the first mapped domain associated with that page.</p>
+<p>This prevents site visitors from ending up on an unexpected domain than the one they were previously navigating.</p>
+<div class="info-block info-block-warning"><div class="info-block-icon"><img src="https://www.notion.so/icons/report_red.svg" alt="https://www.notion.so/icons/report_red.svg" /></div><div class="info-block-content"><p>If this feature is used simultaneously with Global Domain Mapping, all pages on your site will redirect to their corresponding mapped domain.</p>
+<p>If one page is attached to multiple domains and a user visits the primary site domain's version of that page, they will be redirected to the version of the page attached to the first domain in your mapping settings.</p></div></div>
+                </article>
+            </main>
+
+            <!-- Right Sidebar: Table of Contents -->
+            <aside class="sidebar sidebar-right">
+                <nav class="toc" id="toc">
+                    
+                </nav>
+            </aside>
+        </div>
+    </div>
+
+    <script>
+        // Expose base path, assets path, and config for JS modules
+        window.DOCS_CONFIG = Object.assign({
+            basePath: '',
+            assetsPath: '/assets/',
+            currentUrl: '/features/redirect-site-visitors-to-mapped-domains/'
+        }, {"searchMinChars":3,"searchMaxResults":10,"searchScoring":{"title_match":100,"exact_title_match_bonus":50,"title_starts_with_bonus":25,"heading_match":10},"scrollOffset":100,"scrollAnimationDelay":1000,"hashScrollDelay":100,"navScrollDelay":100,"mobileBreakpoint":768,"navStorageKey":"docs_nav_state"});
+    </script>
+    <script src="/assets/js/navigation.js"></script>
+    <script src="/assets/js/toc.js"></script>
+    <script src="/assets/js/search.js"></script>
+</body>
+</html>
