@@ -36,7 +36,7 @@
 <h2 id="cors-causing-missing-images-assets">CORS Causing Missing Images/Assets</h2>
 <p>When assets of a website (css/js/fonts/images) are being restricted to load for only a single domain (for instance -&gt; <strong>example.com</strong>), and when the mapped domain is trying to load those assets, the browser may throw a CORS error message similar to this upon taking some site actions:</p>
 <blockquote>
-<p>Access to XMLHttpRequest at '<a href="https://your-mapped-domain.com/wp-admin/admin-ajax.php">https://your-mapped-domain.com/wp-admin/admin-ajax.php</a>' from origin '<a href="https://your-domain.com">https://your-domain.com</a>' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.</p>
+<p>Access to XMLHttpRequest at '<a href="https://your-mapped-domain.com/wp-admin/admin-ajax.php" target="_blank" rel="noopener noreferrer">https://your-mapped-domain.com/wp-admin/admin-ajax.php</a>' from origin '<a href="https://your-domain.com" target="_blank" rel="noopener noreferrer">https://your-domain.com</a>' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.</p>
 </blockquote>
 <p>This restriction is added from the server configuration (often NGINX), or in some cases even from the .htaccess file ( In the case of Apache), and so the browser is not allowed to load blocked resources on mapped domains.</p>
 <p>Unfortunately, WordPress and plugins/themes have nothing to do with CORS policy.</p>
